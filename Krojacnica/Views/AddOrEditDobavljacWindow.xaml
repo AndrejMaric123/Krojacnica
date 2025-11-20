@@ -1,0 +1,132 @@
+﻿<Window x:Class="Krojacnica.Views.AddOrEditDobavljacWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="{DynamicResource AddEditSupplier_Title}"
+        Height="790" Width="500"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize"
+        FontFamily="Segoe UI"
+        Loaded="Window_Loaded">
+
+    <Grid Background="{DynamicResource AppGradientBrush}">
+
+        <!-- Card panel -->
+        <Border x:Name="CardBorder"
+                Style="{DynamicResource AppCardStyle}"
+                Width="430"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center">
+
+            <StackPanel HorizontalAlignment="Center" Width="350">
+
+                <!-- Naslov -->
+                <TextBlock Text="{DynamicResource AddEditSupplier_Header}"
+                           FontSize="22"
+                           FontWeight="SemiBold"
+                           Foreground="{DynamicResource AppHeaderBrush}"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,25"/>
+
+                <!-- Tip dobavljača -->
+                <TextBlock Text="{DynamicResource Hint_SupplierType}" FontWeight="Bold"/>
+                <StackPanel Orientation="Horizontal" Margin="0,5,0,15">
+                    <RadioButton x:Name="rbIndividualni" Content="{DynamicResource SupplierType_Individual}" 
+                                 IsChecked="True" Margin="0,0,10,0" Checked="Tip_Checked"/>
+                    <RadioButton x:Name="rbPreduzece" Content="{DynamicResource SupplierType_Company}" 
+                                 Checked="Tip_Checked"/>
+                </StackPanel>
+
+                <!-- Šifra -->
+                <TextBox x:Name="txtSifra"
+                         Style="{DynamicResource AppTextBoxStyle}"
+                         materialDesign:HintAssist.Hint="{DynamicResource Hint_Code}"
+                         materialDesign:HintAssist.Foreground="{DynamicResource AppTextBoxHintBrush}"
+                         BorderBrush="{DynamicResource AppTextBoxBorderBrush}"
+                         Height="50" Margin="0,0,0,10"/>
+
+                <!-- Individualni -->
+                <StackPanel x:Name="panelIndividualni">
+                    <TextBox x:Name="txtIme"
+                             Style="{DynamicResource AppTextBoxStyle}"
+                             materialDesign:HintAssist.Hint="{DynamicResource Hint_FirstName}"
+                             materialDesign:HintAssist.Foreground="{DynamicResource AppTextBoxHintBrush}"
+                             BorderBrush="{DynamicResource AppTextBoxBorderBrush}"
+                             Height="50" Margin="0,0,0,10"/>
+                    <TextBox x:Name="txtPrezime"
+                             Style="{DynamicResource AppTextBoxStyle}"
+                             materialDesign:HintAssist.Hint="{DynamicResource Hint_LastName}"
+                             materialDesign:HintAssist.Foreground="{DynamicResource AppTextBoxHintBrush}"
+                             BorderBrush="{DynamicResource AppTextBoxBorderBrush}"
+                             Height="50" Margin="0,0,0,10"/>
+                    <TextBox x:Name="txtJMB"
+                             Style="{DynamicResource AppTextBoxStyle}"
+                             materialDesign:HintAssist.Hint="{DynamicResource Hint_JMB}"
+                             materialDesign:HintAssist.Foreground="{DynamicResource AppTextBoxHintBrush}"
+                             BorderBrush="{DynamicResource AppTextBoxBorderBrush}"
+                             Height="50" Margin="0,0,0,10"/>
+                </StackPanel>
+
+                <!-- Preduzeće -->
+                <StackPanel x:Name="panelPreduzece" Visibility="Collapsed">
+                    <TextBox x:Name="txtNaziv"
+                             Style="{DynamicResource AppTextBoxStyle}"
+                             materialDesign:HintAssist.Hint="{DynamicResource Hint_CompanyName}"
+                             materialDesign:HintAssist.Foreground="{DynamicResource AppTextBoxHintBrush}"
+                             BorderBrush="{DynamicResource AppTextBoxBorderBrush}"
+                             Height="50" Margin="0,0,0,10"/>
+                    <TextBox x:Name="txtJIB"
+                             Style="{DynamicResource AppTextBoxStyle}"
+                             materialDesign:HintAssist.Hint="{DynamicResource Hint_JIB}"
+                             materialDesign:HintAssist.Foreground="{DynamicResource AppTextBoxHintBrush}"
+                             BorderBrush="{DynamicResource AppTextBoxBorderBrush}"
+                             Height="50" Margin="0,0,0,10"/>
+                </StackPanel>
+
+                <!-- Zajednički podaci -->
+                <TextBox x:Name="txtAdresa"
+                         Style="{DynamicResource AppTextBoxStyle}"
+                         materialDesign:HintAssist.Hint="{DynamicResource Hint_Address}"
+                         materialDesign:HintAssist.Foreground="{DynamicResource AppTextBoxHintBrush}"
+                         BorderBrush="{DynamicResource AppTextBoxBorderBrush}"
+                         Height="50" Margin="0,0,0,10"/>
+                <TextBox x:Name="txtTelefon"
+                         Style="{DynamicResource AppTextBoxStyle}"
+                         materialDesign:HintAssist.Hint="{DynamicResource Hint_Phone}"
+                         materialDesign:HintAssist.Foreground="{DynamicResource AppTextBoxHintBrush}"
+                         BorderBrush="{DynamicResource AppTextBoxBorderBrush}"
+                         Height="50" Margin="0,0,0,10"/>
+
+                <!-- Standardni ComboBox -->
+                <ComboBox x:Name="cmbMjesto"
+                          Width="350"
+                          Height="50"
+                          Margin="0,0,0,15"
+                          DisplayMemberPath="naziv" SelectedValuePath="posta"
+                          materialDesign:HintAssist.Hint="{DynamicResource Hint_City}"
+                          Style="{DynamicResource AppComboBoxStyle}"/>
+
+                <!-- Dugmad Sačuvaj / Otkaži -->
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,15,0,0">
+                    <Button Content="{DynamicResource Btn_SaveSupplier}"
+                            Width="110" Margin="0,0,10,0"
+                            Style="{DynamicResource AppPrimaryButtonStyle}"
+                            Click="Save_Click"/>
+                    <Button Content="{DynamicResource Btn_CancelSupplier}"
+                            Width="110"
+                            Style="{DynamicResource AppPrimaryButtonStyle}"
+                            Click="Cancel_Click"/>
+                </StackPanel>
+
+            </StackPanel>
+        </Border>
+
+        <!-- Snackbar -->
+        <materialDesign:Snackbar x:Name="SnackbarHost"
+                                 MessageQueue="{Binding SnackbarMessageQueue}"
+                                 HorizontalAlignment="Center"
+                                 VerticalAlignment="Bottom"
+                                 Margin="0,0,0,20"
+                                 Width="340"/>
+    </Grid>
+</Window>

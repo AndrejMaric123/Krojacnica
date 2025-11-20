@@ -1,0 +1,102 @@
+﻿<Window x:Class="Krojacnica.Views.AddMeasurementsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="{DynamicResource AddMeasurements_Title}"
+        Height="650" Width="450"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize"
+        FontFamily="Segoe UI"
+        Loaded="Window_Loaded">
+
+    <Grid Background="{DynamicResource AppGradientBrush}">
+
+        <!-- Sivi overlay za spinner -->
+        <Grid x:Name="LoadingOverlay"
+              Background="#88000000"
+              Visibility="Collapsed"
+              Panel.ZIndex="999">
+            <ProgressBar IsIndeterminate="True"
+                         Width="200" Height="6"
+                         VerticalAlignment="Center"
+                         Foreground="White"/>
+        </Grid>
+
+        <!-- Card panel -->
+        <Border Style="{DynamicResource AppCardStyle}"
+                Width="371"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Center"
+                Margin="0,26,0,0">
+
+            <StackPanel HorizontalAlignment="Center" Width="300">
+
+                <!-- Naslov -->
+                <TextBlock Text="{DynamicResource AddMeasurements_Title}"
+                           FontSize="22"
+                           FontWeight="SemiBold"
+                           Foreground="{DynamicResource AppHeaderBrush}"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,25" />
+
+                <!-- Mjere -->
+                <TextBox x:Name="txtRamena"
+                         Style="{DynamicResource AppTextBoxStyle}"
+                         materialDesign:HintAssist.Hint="{DynamicResource Hint_Ramena}"
+                         materialDesign:HintAssist.Foreground="{DynamicResource AppTextBoxHintBrush}"
+                         BorderBrush="{DynamicResource AppTextBoxBorderBrush}"
+                         Height="50" Margin="0,5"/>
+
+                <TextBox x:Name="txtGrudi"
+                         Style="{DynamicResource AppTextBoxStyle}"
+                         materialDesign:HintAssist.Hint="{DynamicResource Hint_Grudi}"
+                         materialDesign:HintAssist.Foreground="{DynamicResource AppTextBoxHintBrush}"
+                         BorderBrush="{DynamicResource AppTextBoxBorderBrush}"
+                         Height="50" Margin="0,5"/>
+
+                <TextBox x:Name="txtStruk"
+                         Style="{DynamicResource AppTextBoxStyle}"
+                         materialDesign:HintAssist.Hint="{DynamicResource Hint_Struk}"
+                         materialDesign:HintAssist.Foreground="{DynamicResource AppTextBoxHintBrush}"
+                         BorderBrush="{DynamicResource AppTextBoxBorderBrush}"
+                         Height="50" Margin="0,5"/>
+
+                <TextBox x:Name="txtKukovi"
+                         Style="{DynamicResource AppTextBoxStyle}"
+                         materialDesign:HintAssist.Hint="{DynamicResource Hint_Kukovi}"
+                         materialDesign:HintAssist.Foreground="{DynamicResource AppTextBoxHintBrush}"
+                         BorderBrush="{DynamicResource AppTextBoxBorderBrush}"
+                         Height="50" Margin="0,5"/>
+
+                <TextBox x:Name="txtBokovi"
+                         Style="{DynamicResource AppTextBoxStyle}"
+                         materialDesign:HintAssist.Hint="{DynamicResource Hint_Bokovi}"
+                         materialDesign:HintAssist.Foreground="{DynamicResource AppTextBoxHintBrush}"
+                         BorderBrush="{DynamicResource AppTextBoxBorderBrush}"
+                         Height="50" Margin="0,5"/>
+
+                <TextBox x:Name="txtDuzina"
+                         Style="{DynamicResource AppTextBoxStyle}"
+                         materialDesign:HintAssist.Hint="{DynamicResource Hint_Duzina}"
+                         materialDesign:HintAssist.Foreground="{DynamicResource AppTextBoxHintBrush}"
+                         BorderBrush="{DynamicResource AppTextBoxBorderBrush}"
+                         Height="50" Margin="0,5"/>
+
+                <!-- Dugme -->
+                <Button Content="{DynamicResource Btn_SaveMeasurements}"
+                        Style="{DynamicResource AppPrimaryButtonStyle}"
+                        Click="SaveMeasurements_Click"
+                        Margin="0,20,0,0"/>
+
+            </StackPanel>
+        </Border>
+
+        <!-- Snackbar -->
+        <materialDesign:Snackbar x:Name="SnackbarHost"
+                                 MessageQueue="{Binding SnackbarMessageQueue}"
+                                 HorizontalAlignment="Center"
+                                 VerticalAlignment="Bottom"
+                                 Margin="0,0,0,20"
+                                 Width="300"/>
+    </Grid>
+</Window>

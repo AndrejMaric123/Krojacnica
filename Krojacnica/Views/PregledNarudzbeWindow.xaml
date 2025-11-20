@@ -1,0 +1,76 @@
+﻿<Window x:Class="Krojacnica.Views.PregledNarudzbeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:materialDesign="http://materialdesigninxaml.net/wpf/xaml/themes"
+        xmlns:md="clr-namespace:MaterialDesignThemes.Wpf;assembly=MaterialDesignThemes.Wpf"
+        xmlns:local="clr-namespace:Krojacnica.Converters"
+        Title="{DynamicResource OrderWindow_Title}"
+        Height="680" Width="1050"
+        WindowStartupLocation="CenterOwner"
+        FontFamily="Segoe UI">
+
+    <Window.Resources>
+        <local:HexToColorConverter x:Key="HexToColorConverter"/>
+        <local:ByteArrayToImageConverter x:Key="ByteArrayToImageConverter"/>
+    </Window.Resources>
+
+    <!-- Pozadina prozora -->
+    <Grid Background="{DynamicResource AppGradientBrush}">
+
+        <!-- Glavna kartica -->
+        <Border Style="{DynamicResource AppCardStyle}" Margin="20,9,20,49">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="129*"/>
+                    <ColumnDefinition Width="841*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <!-- Naslov -->
+                <TextBlock x:Name="txtHeader"
+                           Text="{DynamicResource OrderWindow_Header}"
+                           FontSize="26"
+                           FontWeight="SemiBold"
+                           Foreground="{DynamicResource AppHeaderBrush}"
+                           HorizontalAlignment="Center"
+                           Grid.ColumnSpan="2"
+                           Margin="0,20,0,20"
+                           TextAlignment="Center"/>
+
+                <!-- Stavke narudžbe -->
+                <ScrollViewer Grid.Row="1"
+                              VerticalScrollBarVisibility="Auto"
+                              Grid.ColumnSpan="2"
+                              Margin="0,0,0,39"
+                              Grid.RowSpan="2">
+                    <WrapPanel x:Name="StavkeWrap" ItemWidth="260" Margin="5"/>
+                </ScrollViewer>
+
+                <!-- Ukupno -->
+                <StackPanel Grid.Row="2"
+                            Orientation="Horizontal"
+                            HorizontalAlignment="Right"
+                            Margin="0,10,0,0"
+                            Grid.Column="1">
+
+                    <TextBlock Text="{DynamicResource OrderWindow_Total}"
+                               FontSize="18"
+                               VerticalAlignment="Center"
+                               Foreground="{DynamicResource AppHeaderBrush}"/>
+
+                    <TextBlock x:Name="txtUkupno"
+                               FontSize="22"
+                               FontWeight="Bold"
+                               Foreground="{DynamicResource AppHeaderBrush}"
+                               VerticalAlignment="Center"/>
+                </StackPanel>
+
+            </Grid>
+        </Border>
+
+    </Grid>
+</Window>

@@ -1,0 +1,80 @@
+﻿<Window x:Class="Krojacnica.Views.IzdajRacunWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="{DynamicResource IzdajRacunWindow_Title}"
+        Height="400" Width="470"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize"
+        FontFamily="Segoe UI"
+        Loaded="Window_Loaded">
+
+    <Grid Background="{DynamicResource AppGradientBrush}">
+
+        <!-- CARD -->
+        <Border x:Name="CardBorder"
+                Style="{DynamicResource AppCardStyle}"
+                Width="410"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Center"
+                Margin="0,5,0,0">
+
+            <StackPanel HorizontalAlignment="Center" Width="340">
+
+                <!-- NASLOV -->
+                <TextBlock Text="{DynamicResource IzdajRacunWindow_Title}"
+                           FontSize="22"
+                           FontWeight="SemiBold"
+                           Foreground="{DynamicResource AppHeaderBrush}"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,25"/>
+
+                <!-- NAČIN PLAĆANJA -->
+                <ComboBox x:Name="cbNacinPlacanja"
+                          Style="{DynamicResource AppComboBoxStyle}"
+                          materialDesign:HintAssist.Hint="{DynamicResource IzdajRacunWindow_HintNacinPlacanja}"
+                          Margin="0,5,0,15">
+                    <ComboBoxItem Content="{DynamicResource IzdajRacunWindow_PaymentCash}"/>
+                    <ComboBoxItem Content="{DynamicResource IzdajRacunWindow_PaymentCard}"/>
+                    <ComboBoxItem Content="{DynamicResource IzdajRacunWindow_PaymentTransfer}"/>
+                </ComboBox>
+
+                <!-- IZNOS -->
+                <TextBox x:Name="txtIznos"
+                         Style="{DynamicResource AppTextBoxStyle}"
+                         materialDesign:HintAssist.Hint="{DynamicResource IzdajRacunWindow_HintIznos}"
+                         Margin="0,5,0,20"
+                         IsReadOnly="True"
+                         FontWeight="Bold"/>
+
+                <!-- DUGMAD -->
+                <StackPanel Orientation="Horizontal"
+                            HorizontalAlignment="Right"
+                            Margin="0,20,0,0">
+
+                    <Button Content="{DynamicResource IzdajRacunWindow_ButtonSacuvaj}"
+                            Width="120"
+                            Height="45"
+                            Style="{DynamicResource AppPrimaryButtonStyle}"
+                            Click="BtnSacuvaj_Click"/>
+
+                    <Button Content="{DynamicResource IzdajRacunWindow_ButtonOtkazi}"
+                            Width="120"
+                            Height="45"
+                            Margin="10,0,0,0"
+                            Style="{DynamicResource AppPrimaryButtonStyle}"
+                            Click="BtnOtkazi_Click"/>
+                </StackPanel>
+
+            </StackPanel>
+        </Border>
+
+        <!-- SNACKBAR -->
+        <materialDesign:Snackbar x:Name="SnackbarHost"
+                                 MessageQueue="{Binding SnackbarMessageQueue}"
+                                 HorizontalAlignment="Center"
+                                 VerticalAlignment="Bottom"
+                                 Margin="0,0,0,20"
+                                 Width="340"/>
+    </Grid>
+</Window>

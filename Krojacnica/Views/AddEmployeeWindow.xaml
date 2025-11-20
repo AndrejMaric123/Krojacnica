@@ -1,0 +1,110 @@
+﻿<Window x:Class="Krojacnica.Views.AddEmployeeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="{DynamicResource AddEmployee_Title}"
+        Height="720" Width="460"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize"
+        FontFamily="Segoe UI"
+        Loaded="Window_Loaded">
+
+    <Grid Background="{DynamicResource AppGradientBrush}">
+
+        <!-- Sivi overlay za spinner -->
+        <Grid x:Name="LoadingOverlay"
+              Background="#88000000"
+              Visibility="Collapsed"
+              Panel.ZIndex="999">
+            <ProgressBar IsIndeterminate="True"
+                         Width="200" Height="6"
+                         VerticalAlignment="Center"
+                         Foreground="White"/>
+        </Grid>
+
+        <!-- Card panel -->
+        <Border Style="{DynamicResource AppCardStyle}"
+                Width="380"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center">
+
+            <StackPanel HorizontalAlignment="Center" Width="320">
+
+                <!-- Naslov -->
+                <TextBlock Text="{DynamicResource AddEmployee_Title}"
+                           FontSize="22"
+                           FontWeight="SemiBold"
+                           Foreground="{DynamicResource AppHeaderBrush}"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,25"/>
+
+                <!-- Ime -->
+                <TextBox x:Name="TxtIme" 
+                         Text="{Binding Ime}" 
+                         Style="{DynamicResource AppTextBoxStyle}" 
+                         materialDesign:HintAssist.Hint="{DynamicResource Col_Ime}"
+                         materialDesign:HintAssist.Foreground="{DynamicResource AppTextBoxHintBrush}"
+                         BorderBrush="{DynamicResource AppTextBoxBorderBrush}" 
+                         Height="50" Margin="0,5"/>
+
+                <!-- Prezime -->
+                <TextBox x:Name="TxtPrezime" 
+                         Text="{Binding Prezime}" 
+                         Style="{DynamicResource AppTextBoxStyle}" 
+                         materialDesign:HintAssist.Hint="{DynamicResource Col_Prezime}"
+                         materialDesign:HintAssist.Foreground="{DynamicResource AppTextBoxHintBrush}"
+                         BorderBrush="{DynamicResource AppTextBoxBorderBrush}" 
+                         Height="50" Margin="0,5"/>
+
+                <!-- Username -->
+                <TextBox x:Name="TxtUsername" 
+                         Text="{Binding Username}" 
+                         Style="{DynamicResource AppTextBoxStyle}" 
+                         materialDesign:HintAssist.Hint="{DynamicResource Col_Username}"
+                         materialDesign:HintAssist.Foreground="{DynamicResource AppTextBoxHintBrush}"
+                         BorderBrush="{DynamicResource AppTextBoxBorderBrush}" 
+                         Height="50" Margin="0,5"/>
+
+                <!-- Password -->
+                <PasswordBox x:Name="PasswordBox"
+                             Style="{DynamicResource AppPasswordBoxStyle}" 
+                             materialDesign:HintAssist.Hint="{DynamicResource Hint_Password}"
+                             materialDesign:HintAssist.Foreground="{DynamicResource AppTextBoxHintBrush}"
+                             BorderBrush="{DynamicResource AppTextBoxBorderBrush}" 
+                             Height="50" Margin="0,5"/>
+
+                <!-- Datumi -->
+                <DatePicker x:Name="DateOd" 
+                            SelectedDate="{Binding OdDatuma}" 
+                            Style="{DynamicResource AppDatePickerStyle}" 
+                            materialDesign:HintAssist.Hint="{DynamicResource Col_DatumOd}"
+                            materialDesign:HintAssist.Foreground="{DynamicResource AppTextBoxHintBrush}"
+                            BorderBrush="{DynamicResource AppTextBoxBorderBrush}" 
+                            Height="50" Margin="0,5"/>
+
+                <DatePicker x:Name="DateDo" 
+                            SelectedDate="{Binding DoDatuma}" 
+                            Style="{DynamicResource AppDatePickerStyle}" 
+                            materialDesign:HintAssist.Hint="{DynamicResource Col_DatumDo}"
+                            materialDesign:HintAssist.Foreground="{DynamicResource AppTextBoxHintBrush}"
+                            BorderBrush="{DynamicResource AppTextBoxBorderBrush}" 
+                            Height="50" Margin="0,5"/>
+
+                <!-- Dugme -->
+                <Button x:Name="BtnSave"
+                        Content="{DynamicResource Btn_SaveEmployee}"
+                        Style="{DynamicResource AppPrimaryButtonStyle}"
+                        Click="CreateEmployeeButton_Click"
+                        Margin="0,20,0,0"/>
+            </StackPanel>
+        </Border>
+
+        <!-- Snackbar -->
+        <materialDesign:Snackbar x:Name="SnackbarHost"
+                                 MessageQueue="{Binding SnackbarMessageQueue}"
+                                 HorizontalAlignment="Center"
+                                 VerticalAlignment="Bottom"
+                                 Margin="0,0,0,20"
+                                 Width="350"/>
+    </Grid>
+</Window>

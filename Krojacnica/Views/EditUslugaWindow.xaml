@@ -1,0 +1,66 @@
+﻿<Window x:Class="Krojacnica.Views.EditUslugaWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="{DynamicResource EditUsluga_Title}"
+        Height="390" Width="420"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize"
+        FontFamily="Segoe UI"
+        Loaded="Window_Loaded">
+
+    <Grid Background="{DynamicResource AppGradientBrush}">
+
+        <!-- Card -->
+        <Border x:Name="CardBorder"
+                Style="{DynamicResource AppCardStyle}"
+                Width="363"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Center"
+                Margin="0,23,0,0">
+
+            <StackPanel HorizontalAlignment="Center" Width="300">
+
+                <!-- Naslov -->
+                <TextBlock Text="{DynamicResource EditUsluga_Title}"
+                           FontSize="22"
+                           FontWeight="SemiBold"
+                           Foreground="{DynamicResource AppHeaderBrush}"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,20"/>
+
+                <!-- Polja -->
+                <TextBox x:Name="txtNaziv"
+                         Style="{DynamicResource AppTextBoxStyle}"
+                         materialDesign:HintAssist.Hint="{DynamicResource EditUsluga_LabelNaziv}"
+                         Margin="0,0,0,15"/>
+
+                <TextBox x:Name="txtCijena"
+                         Style="{DynamicResource AppTextBoxStyle}"
+                         materialDesign:HintAssist.Hint="{DynamicResource EditUsluga_LabelCijena}"
+                         Margin="0,0,0,10"/>
+
+                <!-- Dugmad -->
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,20,0,0">
+                    <Button Content="{DynamicResource EditUsluga_SaveButton}"
+                            Width="110" Margin="0,0,10,0"
+                            Style="{DynamicResource AppPrimaryButtonStyle}"
+                            Click="BtnSave_Click"/>
+                    <Button Content="{DynamicResource EditUsluga_CancelButton}"
+                            Width="110"
+                            Style="{DynamicResource AppPrimaryButtonStyle}"
+                            Click="BtnCancel_Click"/>
+                </StackPanel>
+
+            </StackPanel>
+        </Border>
+
+        <!-- Snackbar -->
+        <materialDesign:Snackbar x:Name="SnackbarHost"
+                                 MessageQueue="{Binding SnackbarMessageQueue}"
+                                 HorizontalAlignment="Center"
+                                 VerticalAlignment="Bottom"
+                                 Margin="0,0,0,20"
+                                 Width="300"/>
+    </Grid>
+</Window>

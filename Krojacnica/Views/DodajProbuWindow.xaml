@@ -1,0 +1,71 @@
+﻿<Window x:Class="Krojacnica.Views.DodajProbuWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        Title="{DynamicResource DodajProbu_Title}"
+        Height="450" Width="430"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize"
+        FontFamily="Segoe UI"
+        Loaded="Window_Loaded">
+
+    <Grid Background="{DynamicResource AppGradientBrush}">
+
+        <!-- Card -->
+        <Border x:Name="CardBorder"
+                Style="{DynamicResource AppCardStyle}"
+                Width="370"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Center"
+                Margin="0,23,0,0">
+
+            <StackPanel HorizontalAlignment="Center" Width="300">
+
+                <!-- Naslov -->
+                <TextBlock Text="{DynamicResource DodajProbu_Title}"
+                           FontSize="22"
+                           FontWeight="SemiBold"
+                           Foreground="{DynamicResource AppHeaderBrush}"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,20"/>
+
+                <!-- Datum probe -->
+                <TextBlock Text="{DynamicResource DodajProbu_LabelDatum}" FontWeight="Bold" Margin="0,0,0,5"/>
+                <DatePicker x:Name="dpDatum"
+                            SelectedDate="{x:Static sys:DateTime.Now}"
+                            Style="{DynamicResource AppDatePickerStyle}"
+                            Margin="0,0,0,10"/>
+
+                <!-- Komentar -->
+                <TextBlock Text="{DynamicResource DodajProbu_LabelKomentar}" FontWeight="Bold" Margin="0,0,0,5"/>
+                <TextBox x:Name="txtKomentar"
+                         Style="{DynamicResource AppTextBoxStyle}"
+                         Height="80"
+                         TextWrapping="Wrap"
+                         Margin="0,0,0,10"/>
+
+                <!-- Dugmad -->
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
+                    <Button Content="{DynamicResource DodajProbu_SaveButton}"
+                            Width="110" Margin="0,0,10,0"
+                            Style="{DynamicResource AppPrimaryButtonStyle}"
+                            Click="BtnSacuvaj_Click"/>
+                    <Button Content="{DynamicResource DodajProbu_CancelButton}"
+                            Width="110"
+                            Style="{DynamicResource AppPrimaryButtonStyle}"
+                            Click="Cancel_Click"/>
+                </StackPanel>
+
+            </StackPanel>
+        </Border>
+
+        <!-- Snackbar -->
+        <materialDesign:Snackbar x:Name="SnackbarHost"
+                                 MessageQueue="{Binding SnackbarMessageQueue}"
+                                 HorizontalAlignment="Center"
+                                 VerticalAlignment="Bottom"
+                                 Margin="0,0,0,20"
+                                 Width="300"/>
+    </Grid>
+</Window>

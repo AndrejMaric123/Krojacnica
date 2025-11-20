@@ -1,0 +1,124 @@
+﻿<Window x:Class="Krojacnica.Views.MaterijalDobavljaciWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:md="clr-namespace:MaterialDesignThemes.Wpf;assembly=MaterialDesignThemes.Wpf"
+        Title="{DynamicResource MaterijalDobavljaciWindow_Title}"
+        Height="800" Width="700"
+        WindowStartupLocation="CenterOwner"
+        FontFamily="Segoe UI">
+
+    <Grid Background="{DynamicResource AppGradientBrush}">
+
+        <!-- CARD -->
+        <Border Style="{DynamicResource AppCardStyle}"
+                Width="650"
+                Height="694"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Center" Margin="0,25,0,0">
+
+            <StackPanel Margin="0,-20,0,20">
+
+                <!-- NASLOV -->
+                <TextBlock Text="{DynamicResource MaterijalDobavljaciWindow_Header}"
+                           FontSize="26"
+                           FontWeight="SemiBold"
+                           Foreground="{DynamicResource AppHeaderBrush}"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,20"/>
+
+                <!-- LISTA DOBAVLJAČA -->
+                <DataGrid x:Name="dgDobavljaci"
+                          AutoGenerateColumns="False"
+                          CanUserAddRows="False"
+                          IsReadOnly="True"
+                          SelectionMode="Single"
+                          AlternatingRowBackground="#f7f7f7"
+                          Height="180"
+                          Margin="0,0,0,10"
+                          Style="{DynamicResource DataGridBase}"
+                          ColumnHeaderStyle="{DynamicResource DataGridHeader}"
+                          RowStyle="{DynamicResource DataGridRow}">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="{DynamicResource MaterijalDobavljaciWindow_ColumnNaziv}" Binding="{Binding NazivIliIme}" Width="2*" ElementStyle="{DynamicResource CenterCell}"/>
+                        <DataGridTextColumn Header="{DynamicResource MaterijalDobavljaciWindow_ColumnTelefon}" Binding="{Binding Telefon}" Width="*" ElementStyle="{DynamicResource CenterCell}"/>
+                        <DataGridTextColumn Header="{DynamicResource MaterijalDobavljaciWindow_ColumnMjesto}" Binding="{Binding MjestoNaziv}" Width="*" ElementStyle="{DynamicResource CenterCell}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+
+                <!-- UNOS CIJENE + SAVE -->
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,0,0,10">
+                    <TextBox x:Name="txtCijena"
+                             Width="120"
+                             Style="{DynamicResource AppTextBoxStyle}"
+                             materialDesign:HintAssist.Hint="{DynamicResource MaterijalDobavljaciWindow_HintCijena}"
+                             Margin="0,0,10,0"/>
+                    <Button Width="130" Height="42"
+                            Style="{DynamicResource AppPrimaryButtonStyle}"
+                            Click="Save_Click">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <md:PackIcon Kind="ContentSave" Width="20" Height="20" Margin="0,0,6,0" Foreground="White"/>
+                            <TextBlock Text="{DynamicResource MaterijalDobavljaciWindow_ButtonSave}"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+
+                <Separator Margin="0,0,0,10"/>
+
+                <!-- POSTOJEĆE VEZE -->
+                <GroupBox Header="{DynamicResource MaterijalDobavljaciWindow_GroupBoxExisting}" FontWeight="SemiBold"  Style="{DynamicResource AppGroupBoxStyle}">
+                    <DataGrid x:Name="dgPostojeciVeze"
+                              AutoGenerateColumns="False"
+                              CanUserAddRows="False"
+                              IsReadOnly="True"
+                              AlternatingRowBackground="#f7f7f7"
+                              Style="{DynamicResource DataGridBase}"
+                              ColumnHeaderStyle="{DynamicResource DataGridHeader}"
+                              RowStyle="{DynamicResource DataGridRow}"
+                              Margin="5"
+                              Height="200">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="{DynamicResource MaterijalDobavljaciWindow_ColumnDobavljac}" Binding="{Binding DobavljacNaziv}" Width="2*" ElementStyle="{DynamicResource CenterCell}"/>
+                            <DataGridTextColumn Header="{DynamicResource MaterijalDobavljaciWindow_ColumnCijena}" Binding="{Binding Cijena}" Width="*" ElementStyle="{DynamicResource CenterCell}"/>
+                            <DataGridTemplateColumn Header="{DynamicResource MaterijalDobavljaciWindow_ColumnAkcije}" Width="100">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Button Width="50" Height="35"
+                                                Background="#E53935"
+                                                Foreground="White"
+                                                BorderThickness="0"
+                                                FontSize="16"
+                                                HorizontalAlignment="Center"
+                                                Click="DeleteVeza_Click">
+                                            <md:PackIcon Kind="TrashCan" Width="20" Height="20" Foreground="White"/>
+                                        </Button>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </GroupBox>
+
+                <!-- ZATVORI DUGME -->
+                <Button Width="130" Height="42"
+                        Style="{DynamicResource AppPrimaryButtonStyle}"
+                        HorizontalAlignment="Right"
+                        Margin="0,15,0,0"
+                        Click="Close_Click">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                       
+                        <TextBlock Text="{DynamicResource MaterijalDobavljaciWindow_ButtonClose}"/>
+                    </StackPanel>
+                </Button>
+
+            </StackPanel>
+        </Border>
+
+        <!-- Snackbar -->
+        <materialDesign:Snackbar x:Name="SnackbarHost"
+                                 HorizontalAlignment="Center"
+                                 VerticalAlignment="Bottom"
+                                 Width="400"
+                                 Margin="0,0,0,20"/>
+    </Grid>
+</Window>

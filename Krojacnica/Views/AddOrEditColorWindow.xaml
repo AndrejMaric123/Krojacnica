@@ -1,0 +1,85 @@
+﻿<Window x:Class="Krojacnica.Views.AddOrEditColorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="{DynamicResource AddEditColor_Title}"
+        Height="400" Width="450"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize"
+        FontFamily="Segoe UI"
+        Loaded="Window_Loaded">
+
+    <Grid Background="{DynamicResource AppGradientBrush}">
+
+        <!-- Card panel -->
+        <Border x:Name="CardBorder" Style="{DynamicResource AppCardStyle}" Margin="16,22,16,30">
+            <StackPanel HorizontalAlignment="Center" Width="340">
+
+                <!-- Naslov -->
+                <TextBlock Text="{DynamicResource AddEditColor_Header}"
+                           FontSize="22"
+                           FontWeight="SemiBold"
+                           Foreground="{DynamicResource AppHeaderBrush}"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,25"/>
+
+                <!-- Naziv boje -->
+                <TextBox x:Name="txtNaziv"
+                         Style="{DynamicResource AppTextBoxStyle}"
+                         materialDesign:HintAssist.Hint="{DynamicResource Hint_ColorName}"
+                         materialDesign:HintAssist.Foreground="{DynamicResource AppTextBoxHintBrush}"
+                         BorderBrush="{DynamicResource AppTextBoxBorderBrush}"
+                         Height="50" Margin="0,5" Padding="10"/>
+
+                <!-- HEX kod + preview + dugme -->
+                <StackPanel Orientation="Horizontal" Margin="0,10,0,0" VerticalAlignment="Center">
+                    <TextBox x:Name="txtHex"
+                             Style="{DynamicResource AppTextBoxStyle}"
+                             materialDesign:HintAssist.Hint="{DynamicResource Hint_HexCode}"
+                             materialDesign:HintAssist.Foreground="{DynamicResource AppTextBoxHintBrush}"
+                             BorderBrush="{DynamicResource AppTextBoxBorderBrush}"
+                             Width="150" Height="50" Padding="10"/>
+                    <Border x:Name="colorPreview" Width="50" Height="50"
+                            BorderBrush="Black" BorderThickness="1" CornerRadius="3"
+                            Background="White" Margin="10,5,0,0"/>
+                    <Button x:Name="btnPickColor"
+                            Content="{DynamicResource Btn_PickColor}"
+                            Width="120" Height="50" Margin="10,5,0,0"
+                            Style="{DynamicResource AppPrimaryButtonStyle}"
+                            Click="btnPickColor_Click"/>
+                </StackPanel>
+
+                <!-- Dugmad Sačuvaj / Otkaži -->
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,20,0,0">
+                    <Button Content="{DynamicResource Btn_SaveColor}" Width="110" Margin="0,0,10,0"
+                            Style="{DynamicResource AppPrimaryButtonStyle}" Click="Save_Click"/>
+                    <Button Content="{DynamicResource Btn_CancelColor}" Width="120"
+                            Style="{DynamicResource AppPrimaryButtonStyle}" Click="Cancel_Click"/>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+
+        <!-- Popup za ColorPicker -->
+        <Popup x:Name="colorPopup"
+               PlacementTarget="{Binding ElementName=btnPickColor}"
+               StaysOpen="False"
+               AllowsTransparency="True"
+               PopupAnimation="Fade">
+            <Border Background="White" CornerRadius="10" Padding="10">
+                <StackPanel>
+                    <materialDesign:ColorPicker x:Name="colorPicker" Width="250" Height="250"/>
+                    <Button Content="{DynamicResource Btn_ConfirmColor}" Margin="0,10,0,0" Height="35"
+                            Style="{DynamicResource AppPrimaryButtonStyle}" Click="ColorPickerConfirm_Click"/>
+                </StackPanel>
+            </Border>
+        </Popup>
+
+        <!-- Snackbar -->
+        <materialDesign:Snackbar x:Name="SnackbarHost"
+                                 MessageQueue="{Binding SnackbarMessageQueue}"
+                                 HorizontalAlignment="Center"
+                                 VerticalAlignment="Bottom"
+                                 Margin="0,0,0,20"
+                                 Width="340"/>
+    </Grid>
+</Window>

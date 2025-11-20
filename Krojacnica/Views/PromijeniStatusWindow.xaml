@@ -1,0 +1,60 @@
+﻿<Window x:Class="Krojacnica.Views.PromijeniStatusWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:md="clr-namespace:MaterialDesignThemes.Wpf;assembly=MaterialDesignThemes.Wpf"
+        Title="{DynamicResource PromijeniStatus_Title}"
+        Height="320" Width="380"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize"
+        FontFamily="Segoe UI"
+        Loaded="Window_Loaded">
+
+    <Grid Background="{DynamicResource AppGradientBrush}">
+        <!-- Card panel -->
+        <Border Style="{DynamicResource AppCardStyle}"
+                Name="CardBorder"
+                Width="330"
+                Height="231"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Center"
+                Margin="0,17,0,0">
+            <StackPanel HorizontalAlignment="Center" Width="250">
+                <!-- Naslov -->
+                <TextBlock Text="{DynamicResource PromijeniStatus_Header}"
+                           FontSize="22"
+                           FontWeight="SemiBold"
+                           Foreground="{DynamicResource AppHeaderBrush}"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,20"/>
+
+                <!-- ComboBox -->
+                <ComboBox x:Name="cbStatus"
+                          DisplayMemberPath="naziv"
+                          SelectedValuePath="naziv"
+                          Style="{DynamicResource AppComboBoxStyle}"
+                          Height="45" Margin="0,0,0,10"/>
+
+                <!-- Dugmad OK / Otkaži -->
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
+                    <Button Content="{DynamicResource PromijeniStatus_OK}"
+                            Width="100"
+                            Margin="0,0,10,0"
+                            Style="{DynamicResource AppPrimaryButtonStyle}"
+                            Click="BtnOK_Click"/>
+                    <Button Content="{DynamicResource PromijeniStatus_Cancel}"
+                            Width="100"
+                            Style="{DynamicResource AppPrimaryButtonStyle}"
+                            Click="BtnCancel_Click"/>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+
+        <!-- Snackbar -->
+        <materialDesign:Snackbar x:Name="SnackbarHost"
+                                 HorizontalAlignment="Center"
+                                 VerticalAlignment="Bottom"
+                                 Margin="0,0,0,20"
+                                 Width="250"/>
+    </Grid>
+</Window>

@@ -1,0 +1,76 @@
+﻿<Window x:Class="Krojacnica.Views.PregledMjeraWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="{DynamicResource PregledMjeraWindow_Title}"
+        Width="450" Height="440"
+        WindowStartupLocation="CenterOwner"
+        FontFamily="Segoe UI">
+
+    <Grid Background="{StaticResource AppGradientBrush}">
+
+        <!-- CARD -->
+        <Border Style="{StaticResource AppCardStyle}"
+                Width="400"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Top" Margin="0,22,0,0">
+
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <StackPanel>
+
+                    <!-- Naslov -->
+                    <TextBlock Text="{DynamicResource PregledMjeraWindow_Header}"
+                               Style="{DynamicResource AppHeaderStyle}"
+                               FontSize="24"
+                               HorizontalAlignment="Center"
+                               Margin="0,0,0,20"/>
+
+                    <!-- Grid sa mjerenjima -->
+                    <Grid Margin="0,0,0,10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <!-- Kolona 1 -->
+                        <StackPanel Grid.Column="0" Margin="0,0,10,0">
+
+                            <TextBlock Text="{DynamicResource PregledMjeraWindow_Label_Datum}" Style="{DynamicResource LabelStyle}"/>
+                            <TextBlock x:Name="txtDatum" Style="{DynamicResource ValueStyle}" Margin="0,0,0,10"/>
+
+                            <TextBlock Text="{DynamicResource PregledMjeraWindow_Label_Ramena}" Style="{DynamicResource LabelStyle}"/>
+                            <TextBlock x:Name="txtRamena" Style="{DynamicResource ValueStyle}" Margin="0,0,0,10"/>
+
+                            <TextBlock Text="{DynamicResource PregledMjeraWindow_Label_Grudi}" Style="{DynamicResource LabelStyle}"/>
+                            <TextBlock x:Name="txtGrudi" Style="{DynamicResource ValueStyle}" Margin="0,0,0,10"/>
+
+                            <TextBlock Text="{DynamicResource PregledMjeraWindow_Label_Struk}" Style="{DynamicResource LabelStyle}"/>
+                            <TextBlock x:Name="txtStruk" Style="{DynamicResource ValueStyle}" Margin="0,0,0,10"/>
+                        </StackPanel>
+
+                        <!-- Kolona 2 -->
+                        <StackPanel Grid.Column="1" Margin="10,0,0,0">
+
+                            <TextBlock Text="{DynamicResource PregledMjeraWindow_Label_Kukovi}" Style="{DynamicResource LabelStyle}"/>
+                            <TextBlock x:Name="txtKukovi" Style="{DynamicResource ValueStyle}" Margin="0,0,0,10"/>
+
+                            <TextBlock Text="{DynamicResource PregledMjeraWindow_Label_Bokovi}" Style="{DynamicResource LabelStyle}"/>
+                            <TextBlock x:Name="txtBokovi" Style="{DynamicResource ValueStyle}" Margin="0,0,0,10"/>
+
+                            <TextBlock Text="{DynamicResource PregledMjeraWindow_Label_Duzina}" Style="{DynamicResource LabelStyle}"/>
+                            <TextBlock x:Name="txtDuzina" Style="{DynamicResource ValueStyle}" Margin="0,0,0,10"/>
+                        </StackPanel>
+                    </Grid>
+
+                    <!-- Dugme Zatvori -->
+                    <Button Content="{DynamicResource PregledMjeraWindow_Button_Zatvori}"
+                            Width="120"
+                            Height="40"
+                            Style="{DynamicResource AppPrimaryButtonStyle}"
+                            HorizontalAlignment="Center"
+                            Margin="0,10,0,0"
+                            Click="BtnZatvori_Click"/>
+                </StackPanel>
+            </ScrollViewer>
+        </Border>
+    </Grid>
+</Window>

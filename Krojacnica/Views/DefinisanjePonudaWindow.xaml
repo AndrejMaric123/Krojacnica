@@ -1,0 +1,180 @@
+﻿<Window x:Class="Krojacnica.Views.DefinisanjePonudaWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:md="clr-namespace:MaterialDesignThemes.Wpf;assembly=MaterialDesignThemes.Wpf"
+        xmlns:local="clr-namespace:Krojacnica.Converters"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        Title="{DynamicResource DefinisanjePonuda_Title}"
+        Height="750" Width="1200"
+        WindowStartupLocation="CenterScreen"
+        FontFamily="Segoe UI"
+        Background="{StaticResource AppGradientBrush}">
+
+    <Window.Resources>
+        <local:HexToColorConverter x:Key="HexToColorConverter"/>
+        <local:ByteArrayToImageConverter x:Key="ByteArrayToImageConverter"/>
+
+        <Style x:Key="UndoSnackbarButtonStyle" TargetType="Button" BasedOn="{StaticResource MaterialDesignFlatButton}">
+            <Setter Property="Background" Value="#A8E6CF"/>
+            <!-- pastelno zelena -->
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Margin" Value="0,0,0,0"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid Margin="20">
+        <Border Style="{DynamicResource AppCardStyle}" Margin="0,-20,0,20">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <!-- Naslov -->
+                <TextBlock Text="{DynamicResource DefinisanjePonuda_Title}"
+                           FontSize="26" FontWeight="SemiBold"
+                           Foreground="{DynamicResource AppHeaderBrush}"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,20"/>
+
+                <!-- TabControl -->
+                <TabControl Grid.Row="1" Margin="0,0,-24,0">
+                    <!-- USLUGE TAB -->
+                    <TabItem Header="{DynamicResource DefinisanjePonuda_UslugeTab}">
+                        <Grid Margin="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+
+                            <!-- Forma za dodavanje -->
+                            <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0 0 0 15">
+                                <TextBox x:Name="txtNaziv" Width="230"
+                                         Style="{DynamicResource AppTextBoxStyle}"
+                                         materialDesign:HintAssist.Hint="{DynamicResource DefinisanjePonuda_NazivUsluge}" Margin="0 0 10 0"/>
+                                <TextBox x:Name="txtCijena" Width="120"
+                                         Style="{DynamicResource AppTextBoxStyle}"
+                                         materialDesign:HintAssist.Hint="{DynamicResource DefinisanjePonuda_Cijena}" Margin="0 0 10 0"/>
+                                <Button Content="{DynamicResource DefinisanjePonuda_DodajUslugu}" Width="120"
+                                        Style="{DynamicResource AppPrimaryButtonStyle}"
+                                        Click="BtnDodajUslugu_Click"/>
+                            </StackPanel>
+
+                            <!-- Filter -->
+                            <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0 0 0 10">
+                                <TextBox x:Name="txtFilterUsluge" Width="250"
+                                         Style="{DynamicResource AppTextBoxStyle}"
+                                         materialDesign:HintAssist.Hint="{DynamicResource DefinisanjePonuda_PretraziUsluge}"
+                                         TextChanged="TxtFilterUsluge_TextChanged"/>
+                            </StackPanel>
+
+                            <!-- DataGrid -->
+                            <DataGrid Grid.Row="2" x:Name="dgPonude"
+                                      ItemsSource="{Binding Usluge}"
+                                      AutoGenerateColumns="False"
+                                      CanUserAddRows="False"
+                                     
+                                      Style="{DynamicResource DataGridBase}"
+                                      RowStyle="{DynamicResource DataGridRow}"
+                                      ColumnHeaderStyle="{DynamicResource DataGridHeader}">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="Auto"/>
+                                    <DataGridTextColumn Header="{DynamicResource DefinisanjePonuda_NazivUsluge}" Binding="{Binding Naziv}" Width="*"/>
+                                    <DataGridTextColumn Header="{DynamicResource DefinisanjePonuda_Cijena}" Binding="{Binding Cijena}" Width="Auto"/>
+                                    <DataGridTemplateColumn Header="{DynamicResource DefinisanjePonuda_Akcije}" Width="160">
+                                        <DataGridTemplateColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                                    <Button Width="50"
+                                                            Style="{DynamicResource AppPrimaryButtonStyle}"
+                                                            Tag="{Binding}"
+                                                            Click="BtnUrediUslugu_Click">
+                                                        <md:PackIcon Kind="Pencil"/>
+                                                    </Button>
+                                                    <Button Width="50" 
+                                                            Style="{DynamicResource AppPrimaryButtonStyle}"
+                                                            Background="#E53935" Tag="{Binding}"
+                                                            Click="BtnObrisiUslugu_Click">
+                                                        <md:PackIcon Kind="TrashCan"/>
+                                                    </Button>
+                                                </StackPanel>
+                                            </DataTemplate>
+                                        </DataGridTemplateColumn.CellTemplate>
+                                    </DataGridTemplateColumn>
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </Grid>
+                    </TabItem>
+
+                    <!-- ARTIKLI TAB -->
+                    <TabItem Header="{DynamicResource DefinisanjePonuda_ArtikliTab}">
+                        <Grid Margin="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+
+                            <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,15">
+                                <TextBox x:Name="txtNazivArtikla" Width="200"
+                                         Style="{DynamicResource AppTextBoxStyle}"
+                                         materialDesign:HintAssist.Hint="{DynamicResource DefinisanjePonuda_NazivArtikla}"/>
+                                <ComboBox x:Name="cmbMaterijal" Width="160" Height="54" Margin="10,0,0,0"
+                                          Style="{DynamicResource AppComboBoxStyle}">
+                                    <ComboBox.ItemTemplate>
+                                        <DataTemplate>
+                                            <TextBlock Text="{Binding naziv}"/>
+                                        </DataTemplate>
+                                    </ComboBox.ItemTemplate>
+                                </ComboBox>
+                                <ComboBox x:Name="cmbBoje" Width="150" Height="59" Margin="10,0,0,0"
+                                          Style="{DynamicResource AppComboBoxStyle}">
+                                    <ComboBox.ItemTemplate>
+                                        <DataTemplate>
+                                            <StackPanel Orientation="Horizontal">
+                                                <Border Width="20" Height="20" Margin="0,0,6,0"
+                                                        Background="{Binding hex_code}" CornerRadius="3"/>
+                                                <TextBlock Text="{Binding naziv}"/>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </ComboBox.ItemTemplate>
+                                </ComboBox>
+                                <Button Content="{DynamicResource DefinisanjePonuda_Slika}" Width="120" Height="53" Margin="10,0,0,0"
+                                        Style="{DynamicResource AppPrimaryButtonStyle}"
+                                        Click="BtnOdaberiSliku_Click"/>
+                                <Image x:Name="imgPreview" Width="90" Height="90" Margin="10,0,10,0"/>
+                                <TextBox x:Name="txtCijenaArtikla" Width="120"
+                                         Style="{DynamicResource AppTextBoxStyle}"
+                                         materialDesign:HintAssist.Hint="{DynamicResource DefinisanjePonuda_Cijena}" Margin="0,0,10,0"/>
+                                <Button Content="{DynamicResource DefinisanjePonuda_DodajArtikal}" Width="150" Height="50"
+                                        Style="{DynamicResource AppPrimaryButtonStyle}"
+                                        Click="BtnDodajArtikal_Click"/>
+                            </StackPanel>
+
+                            <!-- Filter -->
+                            <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,0,0,10">
+                                <TextBox x:Name="txtFilterArtikli" Width="250"
+                                         Style="{DynamicResource AppTextBoxStyle}"
+                                         materialDesign:HintAssist.Hint="{DynamicResource DefinisanjePonuda_PretraziArtikle}"
+                                         TextChanged="TxtFilterArtikli_TextChanged"/>
+                            </StackPanel>
+
+                            <!-- WrapPanel -->
+                            <ScrollViewer Grid.Row="2" VerticalScrollBarVisibility="Auto">
+                                <WrapPanel x:Name="ArtikliWrap" ItemWidth="260" Margin="5"/>
+                            </ScrollViewer>
+                        </Grid>
+                    </TabItem>
+                </TabControl>
+            </Grid>
+        </Border>
+
+        <!-- Snackbar -->
+        <materialDesign:Snackbar x:Name="MainSnackbar"
+                                 MessageQueue="{materialDesign:MessageQueue}"
+                                 VerticalAlignment="Bottom" Margin="20"/>
+    </Grid>
+</Window>

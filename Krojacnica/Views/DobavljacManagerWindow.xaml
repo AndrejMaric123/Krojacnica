@@ -1,0 +1,190 @@
+﻿<Window x:Class="Krojacnica.Views.DobavljacManagerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:md="clr-namespace:MaterialDesignThemes.Wpf;assembly=MaterialDesignThemes.Wpf"
+        Title="{DynamicResource DobavljacManager_Title}"
+        Height="720" Width="1000"
+        WindowStartupLocation="CenterScreen"
+        FontFamily="Segoe UI"
+        Loaded="Window_Loaded">
+
+    <Grid Background="{DynamicResource AppGradientBrush}">
+
+        <Border x:Name="CardBorder"
+                Style="{DynamicResource AppCardStyle}"
+                Width="900"
+                Height="600"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center">
+
+            <StackPanel>
+
+                <!-- NASLOV -->
+                <TextBlock Text="{DynamicResource DobavljacManager_Title}"
+                           FontSize="26"
+                           FontWeight="SemiBold"
+                           Foreground="{DynamicResource AppHeaderBrush}"
+                           HorizontalAlignment="Center"
+                           Margin="0 0 0 20"/>
+
+                <!-- Search + Add -->
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+
+                    <DockPanel Width="350" Height="42" Margin="0,0,15,0">
+                        <md:PackIcon Kind="Magnify"
+                                     Width="22" Height="22"
+                                     VerticalAlignment="Center"
+                                     Margin="8,0"
+                                     Foreground="{DynamicResource AppHeaderBrush}"/>
+                        <TextBox Margin="5,0,0,0"
+                                 materialDesign:HintAssist.Hint="{DynamicResource DobavljacManager_SearchHint}"
+                                 Text="{Binding SearchQuery, UpdateSourceTrigger=PropertyChanged}"
+                                 BorderThickness="0"
+                                 FontSize="15"/>
+                    </DockPanel>
+
+                    <Button Style="{DynamicResource AppPrimaryButtonStyle}"
+                            Width="200" Height="42"
+                            Click="Add_Click">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <md:PackIcon Kind="Plus" Width="20" Height="20" Margin="0,0,6,0" Foreground="White"/>
+                            <TextBlock Text="{DynamicResource DobavljacManager_AddButton}"/>
+                        </StackPanel>
+                    </Button>
+
+                </StackPanel>
+
+                <!-- TAB KONTROLA -->
+                <TabControl x:Name="tabControl"
+                            Margin="0,10,0,0"
+                            Background="White"
+                            BorderThickness="0">
+
+                    <!-- INDIVIDUALNI -->
+                    <TabItem Header="{DynamicResource DobavljacManager_TabIndividual}">
+                        <DataGrid x:Name="dgIndividualni"
+                                  ItemsSource="{Binding Individualni}"
+                                  AutoGenerateColumns="False"
+                                  SelectionMode="Single"
+                                  SelectionUnit="FullRow"
+                                  IsReadOnly="True"
+                                  Style="{DynamicResource DataGridBase}"
+                                  ColumnHeaderStyle="{DynamicResource DataGridHeader}"
+                                  RowStyle="{DynamicResource DataGridRow}"
+                                  Margin="0,10">
+
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="{DynamicResource DobavljacManager_ColumnImePrezime}"
+                                                    Binding="{Binding NazivIliIme}"
+                                                    Width="2*"
+                                                    ElementStyle="{DynamicResource CenterCell}"/>
+                                <DataGridTextColumn Header="{DynamicResource DobavljacManager_ColumnAdresa}"
+                                                    Binding="{Binding Adresa}"
+                                                    Width="2*"
+                                                    ElementStyle="{DynamicResource CenterCell}"/>
+                                <DataGridTextColumn Header="{DynamicResource DobavljacManager_ColumnTelefon}"
+                                                    Binding="{Binding Telefon}"
+                                                    Width="*"
+                                                    ElementStyle="{DynamicResource CenterCell}"/>
+                                <DataGridTextColumn Header="{DynamicResource DobavljacManager_ColumnMjesto}"
+                                                    Binding="{Binding MjestoNaziv}"
+                                                    Width="*"
+                                                    ElementStyle="{DynamicResource CenterCell}"/>
+                                <DataGridTemplateColumn Header="{DynamicResource DobavljacManager_ColumnAkcije}" Width="180">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                                <Button Width="45" Height="32" Margin="4"
+                                                        Click="EditRow_Click"
+                                                        Style="{DynamicResource AppPrimaryButtonStyle}">
+                                                    <md:PackIcon Kind="Pencil" Foreground="White"/>
+                                                </Button>
+                                                <Button Width="45" Height="32" Margin="4"
+                                                        Click="PregledOtkupaRow_Click"
+                                                        Style="{DynamicResource AppPrimaryButtonStyle}">
+                                                    <md:PackIcon Kind="Cart" Foreground="White"/>
+                                                </Button>
+                                                <Button Width="45" Height="32" Margin="4"
+                                                        Background="#E53935"
+                                                        Click="DeleteRow_Click"
+                                                        Style="{DynamicResource AppPrimaryButtonStyle}">
+                                                    <md:PackIcon Kind="TrashCan" Foreground="White"/>
+                                                </Button>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </TabItem>
+
+                    <!-- PREDUZEĆA -->
+                    <TabItem Header="{DynamicResource DobavljacManager_TabPreduzece}">
+                        <DataGrid x:Name="dgPreduzeca"
+                                  ItemsSource="{Binding Preduzeca}"
+                                  AutoGenerateColumns="False"
+                                  IsReadOnly="True"
+                                  Style="{DynamicResource DataGridBase}"
+                                  ColumnHeaderStyle="{DynamicResource DataGridHeader}"
+                                  RowStyle="{DynamicResource DataGridRow}"
+                                  Margin="0,10">
+
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="{DynamicResource DobavljacManager_ColumnNaziv}"
+                                                    Binding="{Binding NazivIliIme}"
+                                                    Width="2*"
+                                                    ElementStyle="{DynamicResource CenterCell}"/>
+                                <DataGridTextColumn Header="{DynamicResource DobavljacManager_ColumnAdresa}"
+                                                    Binding="{Binding Adresa}"
+                                                    Width="2*"
+                                                    ElementStyle="{DynamicResource CenterCell}"/>
+                                <DataGridTextColumn Header="{DynamicResource DobavljacManager_ColumnTelefon}"
+                                                    Binding="{Binding Telefon}"
+                                                    Width="*"
+                                                    ElementStyle="{DynamicResource CenterCell}"/>
+                                <DataGridTextColumn Header="{DynamicResource DobavljacManager_ColumnMjesto}"
+                                                    Binding="{Binding MjestoNaziv}"
+                                                    Width="*"
+                                                    ElementStyle="{DynamicResource CenterCell}"/>
+                                <DataGridTemplateColumn Header="{DynamicResource DobavljacManager_ColumnAkcije}" Width="180">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                                <Button Width="45" Height="32" Margin="4"
+                                                        Click="EditRow_Click"
+                                                        Style="{DynamicResource AppPrimaryButtonStyle}">
+                                                    <md:PackIcon Kind="Pencil" Foreground="White"/>
+                                                </Button>
+                                                <Button Width="45" Height="32" Margin="4"
+                                                        Click="PregledOtkupaRow_Click"
+                                                        Style="{DynamicResource AppPrimaryButtonStyle}">
+                                                    <md:PackIcon Kind="Cart" Foreground="White"/>
+                                                </Button>
+                                                <Button Width="45" Height="32" Margin="4"
+                                                        Background="#E53935"
+                                                        Click="DeleteRow_Click"
+                                                        Style="{DynamicResource AppPrimaryButtonStyle}">
+                                                    <md:PackIcon Kind="TrashCan" Foreground="White"/>
+                                                </Button>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </TabItem>
+
+                </TabControl>
+
+            </StackPanel>
+        </Border>
+
+        <materialDesign:Snackbar x:Name="SnackbarHost"
+                                 HorizontalAlignment="Center"
+                                 VerticalAlignment="Bottom"
+                                 Margin="0,0,0,25"
+                                 MessageQueue="{Binding SnackbarQueue}"
+                                 Width="450"/>
+    </Grid>
+</Window>

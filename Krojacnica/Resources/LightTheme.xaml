@@ -1,0 +1,257 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes">
+
+    <!-- ====================== -->
+    <!--  GLOBAL GRADIENT BRUSH -->
+    <!-- ====================== -->
+    <LinearGradientBrush x:Key="AppGradientBrush" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#b84688" Offset="0"/>
+        <GradientStop Color="#54c583" Offset="1"/>
+    </LinearGradientBrush>
+
+    <!-- ====================== -->
+    <!--  GLOBAL CARD STYLE     -->
+    <!-- ====================== -->
+    <Style x:Key="AppCardStyle" TargetType="Border">
+        <Setter Property="CornerRadius" Value="20"/>
+        <Setter Property="Background" Value="White"/>
+        <Setter Property="Padding" Value="30"/>
+        <Setter Property="Effect">
+            <Setter.Value>
+                <DropShadowEffect BlurRadius="15"
+                                  ShadowDepth="3"
+                                  Opacity="0.25"/>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="RenderTransformOrigin" Value="0.5,0.5"/>
+        <Setter Property="RenderTransform">
+            <Setter.Value>
+                <TranslateTransform Y="20"/>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+    <Style x:Key="ArticleCardStyle" TargetType="Border">
+        <Setter Property="CornerRadius" Value="20"/>
+        <Setter Property="Background" Value="#dbdbdb"/>
+        <Setter Property="Padding" Value="30"/>
+        <Setter Property="Effect">
+            <Setter.Value>
+                <DropShadowEffect BlurRadius="15"
+                              ShadowDepth="3"
+                              Opacity="0.25"/>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="RenderTransformOrigin" Value="0.5,0.5"/>
+        <Setter Property="RenderTransform">
+            <Setter.Value>
+                <TranslateTransform Y="20"/>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!-- ====================== -->
+    <!--  GLOBAL OPEN ANIMATION -->
+    <!-- ====================== -->
+    <Storyboard x:Key="AppWindowEnterAnimation">
+        <DoubleAnimation Storyboard.TargetProperty="Opacity"
+                         From="0" To="1" Duration="0:0:0.35"/>
+        <DoubleAnimation Storyboard.TargetProperty="RenderTransform.(TranslateTransform.Y)"
+                         From="25" To="0"
+                         Duration="0:0:0.35"
+                         DecelerationRatio="0.8"/>
+    </Storyboard>
+
+    <!-- ====================== -->
+    <!--  GLOBAL BUTTON STYLE   -->
+    <!-- ====================== -->
+    <Style x:Key="AppPrimaryButtonStyle" TargetType="Button"
+           BasedOn="{StaticResource MaterialDesignRaisedButton}">
+        <Setter Property="Height" Value="48"/>
+        <Setter Property="Width" Value="320"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="Background" Value="#b84688"/>
+        <Setter Property="materialDesign:RippleAssist.IsCentered" Value="True"/>
+    </Style>
+
+    <!-- Naslov prozora / Card -->
+    <SolidColorBrush x:Key="AppHeaderBrush" Color="#54c583"/>
+    <!-- svijetla tema -->
+    <!-- TextBox okvir -->
+    <SolidColorBrush x:Key="AppTextBoxBorderBrush" Color="#b84688"/>
+
+    <SolidColorBrush x:Key="AppTextBoxHintBrush" Color="Gray"/>
+
+
+
+    <Style x:Key="AppTextBoxStyle" TargetType="TextBox" BasedOn="{StaticResource MaterialDesignOutlinedTextBox}">
+        <Setter Property="Height" Value="50"/>
+        <Setter Property="BorderBrush" Value="#777777"/>
+        <Setter Property="Foreground" Value="Black"/>
+        <Setter Property="materialDesign:HintAssist.Foreground" Value="#555555"/>
+    </Style>
+
+    <Style x:Key="AppPasswordBoxStyle" TargetType="PasswordBox" BasedOn="{StaticResource MaterialDesignOutlinedPasswordBox}">
+        <Setter Property="Height" Value="50"/>
+        <Setter Property="BorderBrush" Value="#777777"/>
+        <Setter Property="Foreground" Value="Black"/>
+        <Setter Property="materialDesign:HintAssist.Foreground" Value="#555555"/>
+    </Style>
+
+    <Style x:Key="AppDatePickerStyle" TargetType="DatePicker" BasedOn="{StaticResource MaterialDesignOutlinedDatePicker}">
+        <Setter Property="Height" Value="50"/>
+        <Setter Property="BorderBrush" Value="#777777"/>
+        <Setter Property="Foreground" Value="Black"/>
+        <Setter Property="materialDesign:HintAssist.Foreground" Value="#555555"/>
+    </Style>
+
+    <Style x:Key="AppComboBoxStyle" TargetType="ComboBox" BasedOn="{StaticResource {x:Type ComboBox}}">
+        <Setter Property="Height" Value="50"/>
+        <Setter Property="Padding" Value="10,0,10,0"/>
+        <Setter Property="Foreground" Value="Black"/>
+        <Setter Property="Background" Value="#f0f0f0"/>
+        <Setter Property="BorderBrush" Value="{DynamicResource AppTextBoxBorderBrush}"/>
+        <Setter Property="materialDesign:HintAssist.Foreground" Value="Black"/>
+        <Setter Property="materialDesign:HintAssist.HintPaddingBrush" Value="#bbbbbb"/>
+    </Style>
+
+
+    <!-- =================================== -->
+    <!--         LIGHT THEME DATAGRID        -->
+    <!-- =================================== -->
+
+    <!-- GLAVNI DATAGRID STIL -->
+    <Style x:Key="DataGridBase" TargetType="DataGrid">
+        <Setter Property="Background" Value="White"/>
+        <Setter Property="RowBackground" Value="White"/>
+        <Setter Property="AlternatingRowBackground" Value="#f7f7f7"/>
+        <Setter Property="BorderBrush" Value="#e6e6e6"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="Foreground" Value="#333"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="GridLinesVisibility" Value="None"/>
+        <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Hidden"/>
+    </Style>
+
+
+    <!-- HEADER -->
+    <Style x:Key="DataGridHeader" TargetType="DataGridColumnHeader">
+        <Setter Property="Background" Value="White"/>
+        <Setter Property="Foreground" Value="#333"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="FontSize" Value="15"/>
+        <Setter Property="Padding" Value="12 8"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="BorderBrush" Value="#e3e3e3"/>
+        <Setter Property="BorderThickness" Value="0 0 0 2"/>
+    </Style>
+
+
+    <!-- REDOVI -->
+    <Style x:Key="DataGridRow" TargetType="DataGridRow">
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="Height" Value="55"/>
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+        <Setter Property="Background" Value="White"/>
+        <Setter Property="BorderBrush" Value="#e6e6e6"/>
+        <Setter Property="BorderThickness" Value="0 0 0 1"/>
+
+        <Style.Triggers>
+
+            <!-- Hover -->
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="#eef8f2"/>
+            </Trigger>
+
+            
+
+        </Style.Triggers>
+    </Style>
+
+
+    <!-- CENTRIRANJE TEKSTA U CELIJAMA -->
+    <Style x:Key="CenterCell" TargetType="TextBlock">
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="Foreground" Value="#333"/>
+        <Setter Property="FontSize" Value="14"/>
+    </Style>
+
+    <!-- =========================== -->
+    <!-- LIGHT / GRAY GROUPBOX STYLE -->
+    <!-- =========================== -->
+    <Style TargetType="GroupBox" x:Key="AppGroupBoxStyle">
+        <Setter Property="Foreground" Value="#333333"/>
+        <Setter Property="Background" Value="#f0f0f0"/>
+        <Setter Property="BorderBrush" Value="#cccccc"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="Padding" Value="10"/>
+        <Setter Property="Margin" Value="0,5,0,5"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="GroupBox">
+                    <Border Background="{TemplateBinding Background}" 
+                        BorderBrush="{TemplateBinding BorderBrush}" 
+                        BorderThickness="{TemplateBinding BorderThickness}" 
+                        CornerRadius="8"
+                        Padding="{TemplateBinding Padding}">
+                        <DockPanel>
+                            <!-- Header -->
+                            <TextBlock Text="{TemplateBinding Header}" 
+                                   FontWeight="SemiBold" 
+                                   Foreground="{TemplateBinding Foreground}" 
+                                   FontSize="14" 
+                                   DockPanel.Dock="Top"
+                                   Margin="5,0,0,5"/>
+                            <ContentPresenter/>
+                        </DockPanel>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!-- Svijetla tema sidebar -->
+    <SolidColorBrush x:Key="AppSidebarBrush" Color="#E0E0E0"/>
+    <!-- svijetlo siva -->
+    <SolidColorBrush x:Key="AppSidebarTextBrush" Color="#333333"/>
+    <!-- tamno siva za tekst -->
+
+
+    <Style x:Key="AppSidebarButtonStyle" TargetType="Button">
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="Foreground" Value="{DynamicResource AppSidebarTextBrush}"/>
+        <Setter Property="Padding" Value="10"/>
+        <Setter Property="Margin" Value="5"/>
+        <Setter Property="HorizontalContentAlignment" Value="Left"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}" CornerRadius="4">
+                        <ContentPresenter HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5"/>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="#D5D5D5"/>
+                            <!-- malo tamnija prilikom hovera -->
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter Property="Background" Value="#C0C0C0"/>
+                            <!-- još tamnije kad je pritisnuto -->
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+
+
+
+
+</ResourceDictionary>

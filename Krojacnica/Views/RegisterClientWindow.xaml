@@ -1,0 +1,66 @@
+﻿<Window x:Class="Krojacnica.Views.RegisterClientWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:md="clr-namespace:MaterialDesignThemes.Wpf;assembly=MaterialDesignThemes.Wpf"
+        Title="{DynamicResource RegisterClient_Title}"
+        Height="480" Width="430"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize"
+        FontFamily="Segoe UI"
+        Loaded="Window_Loaded">
+
+    <Grid Background="{DynamicResource AppGradientBrush}">
+        <!-- Card panel -->
+        <Border Style="{DynamicResource AppCardStyle}" Width="380" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,10,0,0" Name="CardBorder">
+            <StackPanel HorizontalAlignment="Center" Width="300">
+                <!-- Naslov -->
+                <TextBlock Text="{DynamicResource RegisterClient_Header}"
+                           FontSize="22"
+                           FontWeight="SemiBold"
+                           Foreground="{DynamicResource AppHeaderBrush}"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,20"/>
+
+                <!-- Ime -->
+                <TextBox x:Name="txtFirstName"
+                         Style="{DynamicResource AppTextBoxStyle}"
+                         materialDesign:HintAssist.Hint="{DynamicResource RegisterClient_FirstName}"
+                         Margin="0,5"/>
+
+                <!-- Prezime -->
+                <TextBox x:Name="txtLastName"
+                         Style="{DynamicResource AppTextBoxStyle}"
+                         materialDesign:HintAssist.Hint="{DynamicResource RegisterClient_LastName}"
+                         Margin="0,5"/>
+
+                <!-- Email -->
+                <TextBox x:Name="txtEmail"
+                         Style="{DynamicResource AppTextBoxStyle}"
+                         materialDesign:HintAssist.Hint="{DynamicResource RegisterClient_Email}"
+                         Margin="0,5"/>
+
+                <!-- Telefon -->
+                <TextBox x:Name="txtPhone"
+                         Style="{DynamicResource AppTextBoxStyle}"
+                         materialDesign:HintAssist.Hint="{DynamicResource RegisterClient_Phone}"
+                         Margin="0,5"/>
+
+                <!-- Dugme Registruj -->
+                <Button Content="{DynamicResource RegisterClient_Button}"
+                        Width="160" Height="40"
+                        Margin="0,15,0,0"
+                        HorizontalAlignment="Center"
+                        Style="{DynamicResource AppPrimaryButtonStyle}"
+                        Click="RegisterButton_Click"/>
+            </StackPanel>
+        </Border>
+
+        <!-- Snackbar -->
+        <materialDesign:Snackbar x:Name="SnackbarHost"
+                                 HorizontalAlignment="Center"
+                                 VerticalAlignment="Bottom"
+                                 Margin="0,0,0,20"
+                                 Width="300"/>
+    </Grid>
+</Window>

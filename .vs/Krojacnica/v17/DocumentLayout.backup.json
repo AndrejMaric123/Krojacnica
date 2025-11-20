@@ -1,0 +1,1830 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\definisanjeponudawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\definisanjeponudawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\definisanjeponudawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\definisanjeponudawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\mjestamanagerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\mjestamanagerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\otkupmaterijalawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\otkupmaterijalawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\otkupmaterijalawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\otkupmaterijalawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\novanarudzbawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\novanarudzbawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\novanarudzbawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\novanarudzbawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\materijaldobavljaciwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\materijaldobavljaciwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\dobavljacmanagerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\dobavljacmanagerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\preglednarudzbewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\preglednarudzbewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\pregledotkupawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\pregledotkupawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\pregledotkupawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\pregledotkupawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\pregledotkupastavkewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\pregledotkupastavkewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\models\\otkup_stavka.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\models\\otkup_stavka.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\models\\otkup_isplatum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\models\\otkup_isplatum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\models\\otkup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\models\\otkup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\pregledotkupastavkewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\pregledotkupastavkewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\preglednarudzbewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\preglednarudzbewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\unosstavkewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\unosstavkewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\unosstavkewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\unosstavkewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\resources\\lighttheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\resources\\lighttheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\resources\\stringresources.en.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\resources\\stringresources.en.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\materijalmanagerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\materijalmanagerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\resources\\stringresources.bs.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\resources\\stringresources.bs.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\registerclientwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\registerclientwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\upravljanjezalihama.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\upravljanjezalihama.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\materijaldobavljaciwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\materijaldobavljaciwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\isplatewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\isplatewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\isplatewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\isplatewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\izdajracunwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\izdajracunwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\employeesmanagerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\employeesmanagerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\dodajprobuwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\dodajprobuwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\colorsmanagerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\colorsmanagerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\colorsmanagerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\colorsmanagerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\pregledklijenatawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\pregledklijenatawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\pregledmjerawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\pregledmjerawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\resources\\darktheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\resources\\darktheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\addmeasurementswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\addmeasurementswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\klijentdetaljiwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\klijentdetaljiwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\promijenistatuswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\promijenistatuswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\klijentdetaljiwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\klijentdetaljiwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\promijenistatuswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\promijenistatuswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\viewmodels\\narudzbaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\viewmodels\\narudzbaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\izdajracunwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\izdajracunwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\pregledracunawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\pregledracunawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\viewmodels\\racunviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\viewmodels\\racunviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\pregledracunawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\pregledracunawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\pregledklijenatawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\pregledklijenatawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\employeesmanagerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\employeesmanagerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\addemployeewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\addemployeewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\addemployeewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\addemployeewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|C:\\Users\\Andrej\\source\\repos\\Krojacnica\\krojacnica\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\krojacnica.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\krojacnica.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\upravljanjezalihama.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\upravljanjezalihama.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\pregledprobawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\pregledprobawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\editartikalwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\editartikalwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\editartikalwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\editartikalwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\edituslugawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\edituslugawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\changepasswordwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\changepasswordwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\addoreditmjestowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\addoreditmjestowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\addoreditmjestowindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\addoreditmjestowindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\addoreditmaterijalwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\addoreditmaterijalwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\addoreditdobavljacwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\addoreditdobavljacwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\addoreditcolorwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\addoreditcolorwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\addmeasurementswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\addmeasurementswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\viewmodels\\addemployeeviewmodel .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\viewmodels\\addemployeeviewmodel .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\edituslugawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\edituslugawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\models\\artikal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\models\\artikal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\viewmodels\\mjeraviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\viewmodels\\mjeraviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\viewmodels\\mjereviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\viewmodels\\mjereviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\pregledmjerawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\pregledmjerawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\viewmodels\\materijaldobavljacviewmodel .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\viewmodels\\materijaldobavljacviewmodel .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\viewmodels\\zaposleniviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\viewmodels\\zaposleniviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\models\\zaposleni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\models\\zaposleni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\addoreditdobavljacwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\addoreditdobavljacwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\addoreditcolorwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\addoreditcolorwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\dodajprobuwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\dodajprobuwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\models\\mjere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\models\\mjere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\materijalmanagerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\materijalmanagerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\viewmodels\\racundetaljiviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\viewmodels\\racundetaljiviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\viewmodels\\otkupmaterijalstavkaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\viewmodels\\otkupmaterijalstavkaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\models\\materijal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\models\\materijal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\models\\materijal_dobavljac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\models\\materijal_dobavljac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\models\\materijal_zaliha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\models\\materijal_zaliha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\viewmodels\\isplataviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\viewmodels\\isplataviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\mjestamanagerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\mjestamanagerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\viewmodels\\materijalmanagerviewmodel .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\viewmodels\\materijalmanagerviewmodel .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\addoreditmaterijalwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\addoreditmaterijalwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\viewmodels\\materijalviewmodel .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\viewmodels\\materijalviewmodel .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\viewmodels\\dobavljacmanagerviewmodel .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\viewmodels\\dobavljacmanagerviewmodel .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\models\\boja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\models\\boja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\viewmodels\\bojaviewmodel .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\viewmodels\\bojaviewmodel .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\viewmodels\\uslugaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\viewmodels\\uslugaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\viewmodels\\ponudaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\viewmodels\\ponudaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\viewmodels\\addmeasurementswindow .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\viewmodels\\addmeasurementswindow .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\views\\changepasswordwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\views\\changepasswordwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\models\\status_narudzbe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\models\\status_narudzbe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\viewmodels\\klijentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\viewmodels\\klijentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\models\\racun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\models\\racun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\models\\proba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\models\\proba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\models\\klijent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\models\\klijent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\models\\osoba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\models\\osoba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\converters\\hextocolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\converters\\hextocolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\converters\\bytearraytoimageconverter .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\converters\\bytearraytoimageconverter .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\models\\dobavljac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\models\\dobavljac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|c:\\users\\andrej\\source\\repos\\krojacnica\\krojacnica\\viewmodels\\mjestoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135A2699-696F-433F-B203-270C886D82F7}|Krojacnica\\Krojacnica.csproj|solutionrelative:krojacnica\\viewmodels\\mjestoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DefinisanjePonudaWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\DefinisanjePonudaWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\DefinisanjePonudaWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\DefinisanjePonudaWindow.xaml.cs",
+              "RelativeToolTip": "Krojacnica\\Views\\DefinisanjePonudaWindow.xaml.cs",
+              "ViewState": "AgIAALYBAAAAAAAAAAAAAMcBAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T13:54:59.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MjestaManagerWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\MjestaManagerWindow.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\MjestaManagerWindow.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\MjestaManagerWindow.xaml",
+              "RelativeToolTip": "Krojacnica\\Views\\MjestaManagerWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-16T20:21:27.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MaterijalDobavljaciWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\MaterijalDobavljaciWindow.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\MaterijalDobavljaciWindow.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\MaterijalDobavljaciWindow.xaml",
+              "RelativeToolTip": "Krojacnica\\Views\\MaterijalDobavljaciWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-20T12:27:33.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\AdminWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\AdminWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\AdminWindow.xaml.cs",
+              "RelativeToolTip": "Krojacnica\\Views\\AdminWindow.xaml.cs",
+              "ViewState": "AgIAANAAAAAAAAAAAAAuwOAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T08:55:03.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\AdminWindow.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\AdminWindow.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\AdminWindow.xaml",
+              "RelativeToolTip": "Krojacnica\\Views\\AdminWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-20T01:15:22.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DefinisanjePonudaWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\DefinisanjePonudaWindow.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\DefinisanjePonudaWindow.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\DefinisanjePonudaWindow.xaml",
+              "RelativeToolTip": "Krojacnica\\Views\\DefinisanjePonudaWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-17T20:37:18.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NovaNarudzbaWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\NovaNarudzbaWindow.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\NovaNarudzbaWindow.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\NovaNarudzbaWindow.xaml",
+              "RelativeToolTip": "Krojacnica\\Views\\NovaNarudzbaWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-12T22:33:01.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OtkupMaterijalaWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\OtkupMaterijalaWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\OtkupMaterijalaWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\OtkupMaterijalaWindow.xaml.cs",
+              "RelativeToolTip": "Krojacnica\\Views\\OtkupMaterijalaWindow.xaml.cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAkwLQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T21:41:20.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OtkupMaterijalaWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\OtkupMaterijalaWindow.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\OtkupMaterijalaWindow.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\OtkupMaterijalaWindow.xaml",
+              "RelativeToolTip": "Krojacnica\\Views\\OtkupMaterijalaWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-16T23:36:49.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NovaNarudzbaWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\NovaNarudzbaWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\NovaNarudzbaWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\NovaNarudzbaWindow.xaml.cs",
+              "RelativeToolTip": "Krojacnica\\Views\\NovaNarudzbaWindow.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAIA+wBkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T23:13:48.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DobavljacManagerWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\DobavljacManagerWindow.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\DobavljacManagerWindow.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\DobavljacManagerWindow.xaml",
+              "RelativeToolTip": "Krojacnica\\Views\\DobavljacManagerWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-19T20:58:48.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PregledNarudzbeWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\PregledNarudzbeWindow.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\PregledNarudzbeWindow.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\PregledNarudzbeWindow.xaml",
+              "RelativeToolTip": "Krojacnica\\Views\\PregledNarudzbeWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-20T13:39:49.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PregledOtkupaWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\PregledOtkupaWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\PregledOtkupaWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\PregledOtkupaWindow.xaml.cs",
+              "RelativeToolTip": "Krojacnica\\Views\\PregledOtkupaWindow.xaml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAiwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T13:14:55.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PregledOtkupaWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\PregledOtkupaWindow.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\PregledOtkupaWindow.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\PregledOtkupaWindow.xaml",
+              "RelativeToolTip": "Krojacnica\\Views\\PregledOtkupaWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-16T20:21:51.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PregledNarudzbeWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\PregledNarudzbeWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\PregledNarudzbeWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\PregledNarudzbeWindow.xaml.cs",
+              "RelativeToolTip": "Krojacnica\\Views\\PregledNarudzbeWindow.xaml.cs",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAYwMYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T19:28:10.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "otkup_stavka.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Models\\otkup_stavka.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Models\\otkup_stavka.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Models\\otkup_stavka.cs",
+              "RelativeToolTip": "Krojacnica\\Models\\otkup_stavka.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T13:27:14.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PregledOtkupaStavkeWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\PregledOtkupaStavkeWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\PregledOtkupaStavkeWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\PregledOtkupaStavkeWindow.xaml.cs",
+              "RelativeToolTip": "Krojacnica\\Views\\PregledOtkupaStavkeWindow.xaml.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAADwv0AAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T18:54:58.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "otkup.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Models\\otkup.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Models\\otkup.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Models\\otkup.cs",
+              "RelativeToolTip": "Krojacnica\\Models\\otkup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T13:26:57.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "otkup_isplatum.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Models\\otkup_isplatum.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Models\\otkup_isplatum.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Models\\otkup_isplatum.cs",
+              "RelativeToolTip": "Krojacnica\\Models\\otkup_isplatum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T20:50:17.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PregledOtkupaStavkeWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\PregledOtkupaStavkeWindow.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\PregledOtkupaStavkeWindow.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\PregledOtkupaStavkeWindow.xaml",
+              "RelativeToolTip": "Krojacnica\\Views\\PregledOtkupaStavkeWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-16T20:21:47.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UnosStavkeWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\UnosStavkeWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\UnosStavkeWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\UnosStavkeWindow.xaml.cs",
+              "RelativeToolTip": "Krojacnica\\Views\\UnosStavkeWindow.xaml.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAADwv0AAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T23:26:39.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UnosStavkeWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\UnosStavkeWindow.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\UnosStavkeWindow.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\UnosStavkeWindow.xaml",
+              "RelativeToolTip": "Krojacnica\\Views\\UnosStavkeWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-16T23:06:35.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MaterijalManagerWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\MaterijalManagerWindow.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\MaterijalManagerWindow.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\MaterijalManagerWindow.xaml",
+              "RelativeToolTip": "Krojacnica\\Views\\MaterijalManagerWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-17T20:37:07.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LightTheme.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Resources\\LightTheme.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Resources\\LightTheme.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Resources\\LightTheme.xaml",
+              "RelativeToolTip": "Krojacnica\\Resources\\LightTheme.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-19T09:27:51.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "StringResources.en.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Resources\\StringResources.en.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Resources\\StringResources.en.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Resources\\StringResources.en.xaml",
+              "RelativeToolTip": "Krojacnica\\Resources\\StringResources.en.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-20T13:15:45.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "StringResources.bs.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Resources\\StringResources.bs.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Resources\\StringResources.bs.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Resources\\StringResources.bs.xaml",
+              "RelativeToolTip": "Krojacnica\\Resources\\StringResources.bs.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-20T00:54:23.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RegisterClientWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\RegisterClientWindow.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\RegisterClientWindow.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\RegisterClientWindow.xaml",
+              "RelativeToolTip": "Krojacnica\\Views\\RegisterClientWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-16T23:10:16.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UpravljanjeZalihama.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\UpravljanjeZalihama.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\UpravljanjeZalihama.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\UpravljanjeZalihama.xaml",
+              "RelativeToolTip": "Krojacnica\\Views\\UpravljanjeZalihama.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-16T23:13:21.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IsplateWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\IsplateWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\IsplateWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\IsplateWindow.xaml.cs",
+              "RelativeToolTip": "Krojacnica\\Views\\IsplateWindow.xaml.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAEwDAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T20:38:52.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\LoginWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "Krojacnica\\Views\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAEwDUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T23:16:17.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MaterijalDobavljaciWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\MaterijalDobavljaciWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\MaterijalDobavljaciWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\MaterijalDobavljaciWindow.xaml.cs",
+              "RelativeToolTip": "Krojacnica\\Views\\MaterijalDobavljaciWindow.xaml.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAEwGYAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T18:39:23.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IsplateWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\IsplateWindow.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\IsplateWindow.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\IsplateWindow.xaml",
+              "RelativeToolTip": "Krojacnica\\Views\\IsplateWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-19T17:22:36.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\App.xaml.cs",
+              "RelativeToolTip": "Krojacnica\\App.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAADgvx8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T12:43:27.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\LoginWindow.xaml",
+              "RelativeToolTip": "Krojacnica\\Views\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-12T23:25:04.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IzdajRacunWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\IzdajRacunWindow.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\IzdajRacunWindow.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\IzdajRacunWindow.xaml",
+              "RelativeToolTip": "Krojacnica\\Views\\IzdajRacunWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-15T21:27:44.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "EmployeesManagerWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\EmployeesManagerWindow.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\EmployeesManagerWindow.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\EmployeesManagerWindow.xaml",
+              "RelativeToolTip": "Krojacnica\\Views\\EmployeesManagerWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-20T12:40:07.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "DodajProbuWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\DodajProbuWindow.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\DodajProbuWindow.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\DodajProbuWindow.xaml",
+              "RelativeToolTip": "Krojacnica\\Views\\DodajProbuWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-13T18:45:13.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ColorsManagerWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\ColorsManagerWindow.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\ColorsManagerWindow.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\ColorsManagerWindow.xaml",
+              "RelativeToolTip": "Krojacnica\\Views\\ColorsManagerWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-20T01:17:46.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ColorsManagerWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\ColorsManagerWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\ColorsManagerWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\ColorsManagerWindow.xaml.cs",
+              "RelativeToolTip": "Krojacnica\\Views\\ColorsManagerWindow.xaml.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAkwGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T12:27:47.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "PregledKlijenataWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\PregledKlijenataWindow.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\PregledKlijenataWindow.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\PregledKlijenataWindow.xaml",
+              "RelativeToolTip": "Krojacnica\\Views\\PregledKlijenataWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-13T18:38:53.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "PregledMjeraWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\PregledMjeraWindow.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\PregledMjeraWindow.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\PregledMjeraWindow.xaml",
+              "RelativeToolTip": "Krojacnica\\Views\\PregledMjeraWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-17T20:57:13.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "DarkTheme.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Resources\\DarkTheme.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Resources\\DarkTheme.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Resources\\DarkTheme.xaml",
+              "RelativeToolTip": "Krojacnica\\Resources\\DarkTheme.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-20T11:17:47.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AddMeasurementsWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\AddMeasurementsWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\AddMeasurementsWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\AddMeasurementsWindow.xaml.cs",
+              "RelativeToolTip": "Krojacnica\\Views\\AddMeasurementsWindow.xaml.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAUwE4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T17:40:18.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "KlijentDetaljiWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\KlijentDetaljiWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\KlijentDetaljiWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\KlijentDetaljiWindow.xaml.cs",
+              "RelativeToolTip": "Krojacnica\\Views\\KlijentDetaljiWindow.xaml.cs",
+              "ViewState": "AgIAAA8BAAAAAAAAAAAkwCgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T19:34:34.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "PromijeniStatusWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\PromijeniStatusWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\PromijeniStatusWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\PromijeniStatusWindow.xaml.cs",
+              "RelativeToolTip": "Krojacnica\\Views\\PromijeniStatusWindow.xaml.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAYwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T14:08:50.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "PromijeniStatusWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\PromijeniStatusWindow.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\PromijeniStatusWindow.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\PromijeniStatusWindow.xaml",
+              "RelativeToolTip": "Krojacnica\\Views\\PromijeniStatusWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-16T23:06:28.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "NarudzbaViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\ViewModels\\NarudzbaViewModel.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\ViewModels\\NarudzbaViewModel.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\ViewModels\\NarudzbaViewModel.cs",
+              "RelativeToolTip": "Krojacnica\\ViewModels\\NarudzbaViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T20:20:17.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "KlijentDetaljiWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\KlijentDetaljiWindow.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\KlijentDetaljiWindow.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\KlijentDetaljiWindow.xaml",
+              "RelativeToolTip": "Krojacnica\\Views\\KlijentDetaljiWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-17T20:17:13.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IzdajRacunWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\IzdajRacunWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\IzdajRacunWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\IzdajRacunWindow.xaml.cs",
+              "RelativeToolTip": "Krojacnica\\Views\\IzdajRacunWindow.xaml.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAUwDwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T18:39:47.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "RacunViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\ViewModels\\RacunViewModel.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\ViewModels\\RacunViewModel.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\ViewModels\\RacunViewModel.cs",
+              "RelativeToolTip": "Krojacnica\\ViewModels\\RacunViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:40:41.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "PregledRacunaWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\PregledRacunaWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\PregledRacunaWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\PregledRacunaWindow.xaml.cs",
+              "RelativeToolTip": "Krojacnica\\Views\\PregledRacunaWindow.xaml.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAADwv0AAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:54:46.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "PregledRacunaWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\PregledRacunaWindow.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\PregledRacunaWindow.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\PregledRacunaWindow.xaml",
+              "RelativeToolTip": "Krojacnica\\Views\\PregledRacunaWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-17T20:38:34.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "PregledKlijenataWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\PregledKlijenataWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\PregledKlijenataWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\PregledKlijenataWindow.xaml.cs",
+              "RelativeToolTip": "Krojacnica\\Views\\PregledKlijenataWindow.xaml.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAswEEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T14:08:15.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "EmployeesManagerWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\EmployeesManagerWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\EmployeesManagerWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\EmployeesManagerWindow.xaml.cs",
+              "RelativeToolTip": "Krojacnica\\Views\\EmployeesManagerWindow.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAArwBQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T09:15:46.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "UpravljanjeZalihama.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\UpravljanjeZalihama.xaml.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\UpravljanjeZalihama.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\UpravljanjeZalihama.xaml.cs",
+              "RelativeToolTip": "Krojacnica\\Views\\UpravljanjeZalihama.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAADgvx4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T22:15:14.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "AddEmployeeWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\AddEmployeeWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\AddEmployeeWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\AddEmployeeWindow.xaml.cs",
+              "RelativeToolTip": "Krojacnica\\Views\\AddEmployeeWindow.xaml.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAADwv2IAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T09:34:34.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "AddEmployeeWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\AddEmployeeWindow.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\AddEmployeeWindow.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\AddEmployeeWindow.xaml",
+              "RelativeToolTip": "Krojacnica\\Views\\AddEmployeeWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-14T19:04:08.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Properties\\Settings.settings",
+              "RelativeDocumentMoniker": "Krojacnica\\Properties\\Settings.settings",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Properties\\Settings.settings",
+              "RelativeToolTip": "Krojacnica\\Properties\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2025-11-12T23:18:06.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Krojacnica",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Krojacnica.csproj",
+              "RelativeDocumentMoniker": "Krojacnica\\Krojacnica.csproj",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Krojacnica.csproj",
+              "RelativeToolTip": "Krojacnica\\Krojacnica.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-12T23:17:57.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "PregledProbaWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\PregledProbaWindow.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\PregledProbaWindow.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\PregledProbaWindow.xaml",
+              "RelativeToolTip": "Krojacnica\\Views\\PregledProbaWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-17T13:24:14.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "EditArtikalWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\EditArtikalWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\EditArtikalWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\EditArtikalWindow.xaml.cs",
+              "RelativeToolTip": "Krojacnica\\Views\\EditArtikalWindow.xaml.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAvwDsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T23:40:37.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "EditArtikalWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\EditArtikalWindow.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\EditArtikalWindow.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\EditArtikalWindow.xaml",
+              "RelativeToolTip": "Krojacnica\\Views\\EditArtikalWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-19T13:37:03.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "EditUslugaWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\EditUslugaWindow.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\EditUslugaWindow.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\EditUslugaWindow.xaml",
+              "RelativeToolTip": "Krojacnica\\Views\\EditUslugaWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-20T01:21:47.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "AddOrEditMjestoWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\AddOrEditMjestoWindow.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\AddOrEditMjestoWindow.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\AddOrEditMjestoWindow.xaml",
+              "RelativeToolTip": "Krojacnica\\Views\\AddOrEditMjestoWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-15T17:21:40.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "ChangePasswordWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\ChangePasswordWindow.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\ChangePasswordWindow.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\ChangePasswordWindow.xaml",
+              "RelativeToolTip": "Krojacnica\\Views\\ChangePasswordWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-15T17:22:31.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "AddOrEditMaterijalWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\AddOrEditMaterijalWindow.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\AddOrEditMaterijalWindow.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\AddOrEditMaterijalWindow.xaml",
+              "RelativeToolTip": "Krojacnica\\Views\\AddOrEditMaterijalWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-15T21:32:53.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "AddOrEditMjestoWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\AddOrEditMjestoWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\AddOrEditMjestoWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\AddOrEditMjestoWindow.xaml.cs",
+              "RelativeToolTip": "Krojacnica\\Views\\AddOrEditMjestoWindow.xaml.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAADwv2IAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T17:22:18.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "AddOrEditDobavljacWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\AddOrEditDobavljacWindow.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\AddOrEditDobavljacWindow.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\AddOrEditDobavljacWindow.xaml",
+              "RelativeToolTip": "Krojacnica\\Views\\AddOrEditDobavljacWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-20T01:10:57.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "AddMeasurementsWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\AddMeasurementsWindow.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\AddMeasurementsWindow.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\AddMeasurementsWindow.xaml",
+              "RelativeToolTip": "Krojacnica\\Views\\AddMeasurementsWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-15T17:40:33.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "AddOrEditColorWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\AddOrEditColorWindow.xaml",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\AddOrEditColorWindow.xaml",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\AddOrEditColorWindow.xaml",
+              "RelativeToolTip": "Krojacnica\\Views\\AddOrEditColorWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-15T13:41:54.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "AddEmployeeViewModel .cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\ViewModels\\AddEmployeeViewModel .cs",
+              "RelativeDocumentMoniker": "Krojacnica\\ViewModels\\AddEmployeeViewModel .cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\ViewModels\\AddEmployeeViewModel .cs",
+              "RelativeToolTip": "Krojacnica\\ViewModels\\AddEmployeeViewModel .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T19:17:13.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "EditUslugaWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\EditUslugaWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\EditUslugaWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\EditUslugaWindow.xaml.cs",
+              "RelativeToolTip": "Krojacnica\\Views\\EditUslugaWindow.xaml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA7wBUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T12:47:06.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "artikal.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Models\\artikal.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Models\\artikal.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Models\\artikal.cs",
+              "RelativeToolTip": "Krojacnica\\Models\\artikal.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAQwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T23:58:03.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "MjereViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\ViewModels\\MjereViewModel.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\ViewModels\\MjereViewModel.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\ViewModels\\MjereViewModel.cs",
+              "RelativeToolTip": "Krojacnica\\ViewModels\\MjereViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T20:53:39.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "MjeraViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\ViewModels\\MjeraViewModel.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\ViewModels\\MjeraViewModel.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\ViewModels\\MjeraViewModel.cs",
+              "RelativeToolTip": "Krojacnica\\ViewModels\\MjeraViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T13:31:09.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "PregledMjeraWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\PregledMjeraWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\PregledMjeraWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\PregledMjeraWindow.xaml.cs",
+              "RelativeToolTip": "Krojacnica\\Views\\PregledMjeraWindow.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAUwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T20:57:30.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "MaterijalDobavljacViewModel .cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\ViewModels\\MaterijalDobavljacViewModel .cs",
+              "RelativeDocumentMoniker": "Krojacnica\\ViewModels\\MaterijalDobavljacViewModel .cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\ViewModels\\MaterijalDobavljacViewModel .cs",
+              "RelativeToolTip": "Krojacnica\\ViewModels\\MaterijalDobavljacViewModel .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T23:01:20.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "ZaposleniViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\ViewModels\\ZaposleniViewModel.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\ViewModels\\ZaposleniViewModel.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\ViewModels\\ZaposleniViewModel.cs",
+              "RelativeToolTip": "Krojacnica\\ViewModels\\ZaposleniViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:21:40.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "zaposleni.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Models\\zaposleni.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Models\\zaposleni.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Models\\zaposleni.cs",
+              "RelativeToolTip": "Krojacnica\\Models\\zaposleni.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:29:42.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "AddOrEditDobavljacWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\AddOrEditDobavljacWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\AddOrEditDobavljacWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\AddOrEditDobavljacWindow.xaml.cs",
+              "RelativeToolTip": "Krojacnica\\Views\\AddOrEditDobavljacWindow.xaml.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwDoAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T13:31:35.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "AddOrEditColorWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\AddOrEditColorWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\AddOrEditColorWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\AddOrEditColorWindow.xaml.cs",
+              "RelativeToolTip": "Krojacnica\\Views\\AddOrEditColorWindow.xaml.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAASwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T13:42:28.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "DodajProbuWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\DodajProbuWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\DodajProbuWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\DodajProbuWindow.xaml.cs",
+              "RelativeToolTip": "Krojacnica\\Views\\DodajProbuWindow.xaml.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T22:06:02.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "mjere.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Models\\mjere.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Models\\mjere.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Models\\mjere.cs",
+              "RelativeToolTip": "Krojacnica\\Models\\mjere.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T13:12:14.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "MaterijalManagerWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\MaterijalManagerWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\MaterijalManagerWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\MaterijalManagerWindow.xaml.cs",
+              "RelativeToolTip": "Krojacnica\\Views\\MaterijalManagerWindow.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwBQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T17:08:19.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "RacunDetaljiViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\ViewModels\\RacunDetaljiViewModel.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\ViewModels\\RacunDetaljiViewModel.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\ViewModels\\RacunDetaljiViewModel.cs",
+              "RelativeToolTip": "Krojacnica\\ViewModels\\RacunDetaljiViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:59:51.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "materijal.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Models\\materijal.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Models\\materijal.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Models\\materijal.cs",
+              "RelativeToolTip": "Krojacnica\\Models\\materijal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T22:21:31.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "OtkupMaterijalStavkaViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\ViewModels\\OtkupMaterijalStavkaViewModel.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\ViewModels\\OtkupMaterijalStavkaViewModel.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\ViewModels\\OtkupMaterijalStavkaViewModel.cs",
+              "RelativeToolTip": "Krojacnica\\ViewModels\\OtkupMaterijalStavkaViewModel.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAUwFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T13:28:24.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "materijal_dobavljac.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Models\\materijal_dobavljac.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Models\\materijal_dobavljac.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Models\\materijal_dobavljac.cs",
+              "RelativeToolTip": "Krojacnica\\Models\\materijal_dobavljac.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T22:21:25.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "materijal_zaliha.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Models\\materijal_zaliha.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Models\\materijal_zaliha.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Models\\materijal_zaliha.cs",
+              "RelativeToolTip": "Krojacnica\\Models\\materijal_zaliha.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T12:52:55.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "IsplataViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\ViewModels\\IsplataViewModel.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\ViewModels\\IsplataViewModel.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\ViewModels\\IsplataViewModel.cs",
+              "RelativeToolTip": "Krojacnica\\ViewModels\\IsplataViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T22:57:11.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "MjestaManagerWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\MjestaManagerWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\MjestaManagerWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\MjestaManagerWindow.xaml.cs",
+              "RelativeToolTip": "Krojacnica\\Views\\MjestaManagerWindow.xaml.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwBUAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T21:56:40.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "AddOrEditMaterijalWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\AddOrEditMaterijalWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\AddOrEditMaterijalWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\AddOrEditMaterijalWindow.xaml.cs",
+              "RelativeToolTip": "Krojacnica\\Views\\AddOrEditMaterijalWindow.xaml.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAABIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T16:53:26.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "MaterijalManagerViewModel .cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\ViewModels\\MaterijalManagerViewModel .cs",
+              "RelativeDocumentMoniker": "Krojacnica\\ViewModels\\MaterijalManagerViewModel .cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\ViewModels\\MaterijalManagerViewModel .cs",
+              "RelativeToolTip": "Krojacnica\\ViewModels\\MaterijalManagerViewModel .cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAUwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T21:36:43.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "MaterijalViewModel .cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\ViewModels\\MaterijalViewModel .cs",
+              "RelativeDocumentMoniker": "Krojacnica\\ViewModels\\MaterijalViewModel .cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\ViewModels\\MaterijalViewModel .cs",
+              "RelativeToolTip": "Krojacnica\\ViewModels\\MaterijalViewModel .cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAYwDoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T22:20:41.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "DobavljacManagerViewModel .cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\ViewModels\\DobavljacManagerViewModel .cs",
+              "RelativeDocumentMoniker": "Krojacnica\\ViewModels\\DobavljacManagerViewModel .cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\ViewModels\\DobavljacManagerViewModel .cs",
+              "RelativeToolTip": "Krojacnica\\ViewModels\\DobavljacManagerViewModel .cs",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAIwI4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T20:48:51.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "boja.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Models\\boja.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Models\\boja.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Models\\boja.cs",
+              "RelativeToolTip": "Krojacnica\\Models\\boja.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T13:51:09.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "BojaViewModel .cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\ViewModels\\BojaViewModel .cs",
+              "RelativeDocumentMoniker": "Krojacnica\\ViewModels\\BojaViewModel .cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\ViewModels\\BojaViewModel .cs",
+              "RelativeToolTip": "Krojacnica\\ViewModels\\BojaViewModel .cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAswD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T19:11:30.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "UslugaViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\ViewModels\\UslugaViewModel.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\ViewModels\\UslugaViewModel.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\ViewModels\\UslugaViewModel.cs",
+              "RelativeToolTip": "Krojacnica\\ViewModels\\UslugaViewModel.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwBkAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T16:23:39.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "PonudaViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\ViewModels\\PonudaViewModel.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\ViewModels\\PonudaViewModel.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\ViewModels\\PonudaViewModel.cs",
+              "RelativeToolTip": "Krojacnica\\ViewModels\\PonudaViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T13:58:03.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "AddMeasurementsWindow .cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\ViewModels\\AddMeasurementsWindow .cs",
+              "RelativeDocumentMoniker": "Krojacnica\\ViewModels\\AddMeasurementsWindow .cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\ViewModels\\AddMeasurementsWindow .cs",
+              "RelativeToolTip": "Krojacnica\\ViewModels\\AddMeasurementsWindow .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T13:37:23.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "ChangePasswordWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\ChangePasswordWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Views\\ChangePasswordWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Views\\ChangePasswordWindow.xaml.cs",
+              "RelativeToolTip": "Krojacnica\\Views\\ChangePasswordWindow.xaml.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowBEAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T17:29:03.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "status_narudzbe.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Models\\status_narudzbe.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Models\\status_narudzbe.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Models\\status_narudzbe.cs",
+              "RelativeToolTip": "Krojacnica\\Models\\status_narudzbe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T14:04:22.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "KlijentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\ViewModels\\KlijentViewModel.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\ViewModels\\KlijentViewModel.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\ViewModels\\KlijentViewModel.cs",
+              "RelativeToolTip": "Krojacnica\\ViewModels\\KlijentViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:30:59.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "racun.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Models\\racun.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Models\\racun.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Models\\racun.cs",
+              "RelativeToolTip": "Krojacnica\\Models\\racun.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:00:56.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "proba.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Models\\proba.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Models\\proba.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Models\\proba.cs",
+              "RelativeToolTip": "Krojacnica\\Models\\proba.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T18:43:47.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "klijent.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Models\\klijent.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Models\\klijent.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Models\\klijent.cs",
+              "RelativeToolTip": "Krojacnica\\Models\\klijent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T18:37:49.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "osoba.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Models\\osoba.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Models\\osoba.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Models\\osoba.cs",
+              "RelativeToolTip": "Krojacnica\\Models\\osoba.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T18:37:11.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Krojacnica\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAM0BAAAAAAAAAAD4vxECAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T16:16:19.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "ByteArrayToImageConverter .cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Converters\\ByteArrayToImageConverter .cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Converters\\ByteArrayToImageConverter .cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Converters\\ByteArrayToImageConverter .cs",
+              "RelativeToolTip": "Krojacnica\\Converters\\ByteArrayToImageConverter .cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAUwBMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T14:34:41.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "HexToColorConverter.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Converters\\HexToColorConverter.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Converters\\HexToColorConverter.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Converters\\HexToColorConverter.cs",
+              "RelativeToolTip": "Krojacnica\\Converters\\HexToColorConverter.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T23:54:17.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "dobavljac.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Models\\dobavljac.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\Models\\dobavljac.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\Models\\dobavljac.cs",
+              "RelativeToolTip": "Krojacnica\\Models\\dobavljac.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA+wBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T18:51:28.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "MjestoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\ViewModels\\MjestoViewModel.cs",
+              "RelativeDocumentMoniker": "Krojacnica\\ViewModels\\MjestoViewModel.cs",
+              "ToolTip": "C:\\Users\\Andrej\\source\\repos\\Krojacnica\\Krojacnica\\ViewModels\\MjestoViewModel.cs",
+              "RelativeToolTip": "Krojacnica\\ViewModels\\MjestoViewModel.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T22:20:39.648Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
