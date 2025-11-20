@@ -1,0 +1,513 @@
+-- MySQL Workbench Forward Engineering
+
+SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
+SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
+SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
+
+-- -----------------------------------------------------
+-- Schema krojacnica
+-- -----------------------------------------------------
+
+-- -----------------------------------------------------
+-- Schema krojacnica
+-- -----------------------------------------------------
+CREATE SCHEMA IF NOT EXISTS `krojacnica` DEFAULT CHARACTER SET utf8 ;
+USE `krojacnica` ;
+
+-- -----------------------------------------------------
+-- Table `krojacnica`.`OSOBA`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `krojacnica`.`OSOBA` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `prezime` VARCHAR(20) NOT NULL,
+  `ime` VARCHAR(20) NOT NULL,
+  `telefon` VARCHAR(45) NOT NULL,
+  `email` VARCHAR(255) NOT NULL,
+  PRIMARY KEY (`id`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `krojacnica`.`KLIJENT`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `krojacnica`.`KLIJENT` (
+  `osoba_id` INT NOT NULL,
+  PRIMARY KEY (`osoba_id`),
+  CONSTRAINT `fk_Klijent_OSOBA`
+    FOREIGN KEY (`osoba_id`)
+    REFERENCES `krojacnica`.`OSOBA` (`id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `krojacnica`.`ZAPOSLENI`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `krojacnica`.`ZAPOSLENI` (
+  `osoba_id` INT NOT NULL,
+  `korisnicko_ime` VARCHAR(45) NOT NULL,
+  `lozinka` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`osoba_id`),
+  CONSTRAINT `fk_Zaposleni_OSOBA1`
+    FOREIGN KEY (`osoba_id`)
+    REFERENCES `krojacnica`.`OSOBA` (`id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `krojacnica`.`MJERE`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `krojacnica`.`MJERE` (
+  `sirina_ramena` TINYINT(2) NOT NULL,
+  `obim_grudi` TINYINT(2) NOT NULL,
+  `obim_struka` TINYINT(2) NOT NULL,
+  `obim_kukova` TINYINT(2) NOT NULL,
+  `obim_bokova` TINYINT(2) NOT NULL,
+  `duzina` TINYINT(2) NOT NULL,
+  `klijent_osoba_id` INT NOT NULL,
+  `datum` DATE NOT NULL,
+  PRIMARY KEY (`klijent_osoba_id`, `datum`),
+  CONSTRAINT `fk_MJERE_KLIJENT1`
+    FOREIGN KEY (`klijent_osoba_id`)
+    REFERENCES `krojacnica`.`KLIJENT` (`osoba_id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `krojacnica`.`ZAPOSLENJE`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `krojacnica`.`ZAPOSLENJE` (
+  `broj_ugovora` INT NOT NULL AUTO_INCREMENT,
+  `od_datuma` DATE NOT NULL,
+  `do_datuma` DATE NOT NULL,
+  `osoba_id` INT NOT NULL,
+  PRIMARY KEY (`broj_ugovora`),
+  INDEX `fk_ZAPOSLENJE_ZAPOSLENI1_idx` (`osoba_id` ASC) VISIBLE,
+  CONSTRAINT `fk_ZAPOSLENJE_ZAPOSLENI1`
+    FOREIGN KEY (`osoba_id`)
+    REFERENCES `krojacnica`.`ZAPOSLENI` (`osoba_id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `krojacnica`.`PONUDA`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `krojacnica`.`PONUDA` (
+  `id` INT NOT NULL,
+  `jedinicna_cijena` DECIMAL(6,2) NOT NULL,
+  PRIMARY KEY (`id`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `krojacnica`.`USLUGA`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `krojacnica`.`USLUGA` (
+  `naziv` VARCHAR(45) NOT NULL,
+  `ponuda_id` INT NOT NULL,
+  PRIMARY KEY (`ponuda_id`),
+  CONSTRAINT `fk_USLUGA_PONUDA1`
+    FOREIGN KEY (`ponuda_id`)
+    REFERENCES `krojacnica`.`PONUDA` (`id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `krojacnica`.`MATERIJAL`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `krojacnica`.`MATERIJAL` (
+  `id` INT NOT NULL,
+  `naziv` VARCHAR(45) NOT NULL,
+  `kvalitet` VARCHAR(20) NOT NULL,
+  PRIMARY KEY (`id`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `krojacnica`.`BOJA`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `krojacnica`.`BOJA` (
+  `hex_code` VARCHAR(7) NOT NULL,
+  `naziv` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`hex_code`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `krojacnica`.`ARTIKAL`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `krojacnica`.`ARTIKAL` (
+  `sifra_artikla` INT NOT NULL,
+  `ponuda_id` INT NOT NULL,
+  `materijal_id` INT NOT NULL,
+  `boja_hex_code` VARCHAR(7) NOT NULL,
+  `slika` MEDIUMBLOB NOT NULL,
+  `naziv` VARCHAR(255) NOT NULL,
+  PRIMARY KEY (`ponuda_id`),
+  INDEX `fk_ARTIKAL_MATERIJAL1_idx` (`materijal_id` ASC) VISIBLE,
+  INDEX `fk_ARTIKAL_BOJA1_idx` (`boja_hex_code` ASC) VISIBLE,
+  CONSTRAINT `fk_ARTIKAL_PONUDA1`
+    FOREIGN KEY (`ponuda_id`)
+    REFERENCES `krojacnica`.`PONUDA` (`id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_ARTIKAL_MATERIJAL1`
+    FOREIGN KEY (`materijal_id`)
+    REFERENCES `krojacnica`.`MATERIJAL` (`id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_ARTIKAL_BOJA1`
+    FOREIGN KEY (`boja_hex_code`)
+    REFERENCES `krojacnica`.`BOJA` (`hex_code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `krojacnica`.`STATUS_NARUDZBE`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `krojacnica`.`STATUS_NARUDZBE` (
+  `naziv` VARCHAR(255) NOT NULL,
+  PRIMARY KEY (`naziv`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `krojacnica`.`NARUDZBA`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `krojacnica`.`NARUDZBA` (
+  `broj_narudzbe` INT NOT NULL AUTO_INCREMENT,
+  `datum` DATE NOT NULL,
+  `datum_otkazivanja` DATE NULL,
+  `zaposleni_osoba_id` INT NOT NULL,
+  `klijent_osoba_id` INT NOT NULL,
+  `status_narudzbe_naziv` VARCHAR(255) NOT NULL,
+  PRIMARY KEY (`broj_narudzbe`),
+  INDEX `fk_NARUDŽBA_ZAPOSLENI1_idx` (`zaposleni_osoba_id` ASC) VISIBLE,
+  INDEX `fk_NARUDŽBA_KLIJENT1_idx` (`klijent_osoba_id` ASC) VISIBLE,
+  INDEX `fk_NARUDŽBA_STATUS_NARUDZBE1_idx` (`status_narudzbe_naziv` ASC) VISIBLE,
+  CONSTRAINT `fk_NARUDŽBA_ZAPOSLENI1`
+    FOREIGN KEY (`zaposleni_osoba_id`)
+    REFERENCES `krojacnica`.`ZAPOSLENI` (`osoba_id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_NARUDŽBA_KLIJENT1`
+    FOREIGN KEY (`klijent_osoba_id`)
+    REFERENCES `krojacnica`.`KLIJENT` (`osoba_id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_NARUDŽBA_STATUS_NARUDZBE1`
+    FOREIGN KEY (`status_narudzbe_naziv`)
+    REFERENCES `krojacnica`.`STATUS_NARUDZBE` (`naziv`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `krojacnica`.`STAVKA_NARUDZBE`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `krojacnica`.`STAVKA_NARUDZBE` (
+  `redni_broj` TINYINT(2) NOT NULL,
+  `kolicina` TINYINT(2) NOT NULL,
+  `Cijena` DECIMAL(6,2) NOT NULL,
+  `ponuda_id` INT NOT NULL,
+  `narudzba_broj_narudzbe` INT NOT NULL,
+  `mjere_klijent_osoba_id` INT NULL,
+  `mjere_datum` DATE NULL,
+  PRIMARY KEY (`ponuda_id`, `narudzba_broj_narudzbe`),
+  INDEX `fk_STAVKA_NARUDŽBE_NARUDŽBA1_idx` (`narudzba_broj_narudzbe` ASC) VISIBLE,
+  INDEX `fk_STAVKA_NARUDŽBE_MJERE1_idx` (`mjere_klijent_osoba_id` ASC, `mjere_datum` ASC) VISIBLE,
+  CONSTRAINT `fk_STAVKA_NARUDŽBE_PONUDA1`
+    FOREIGN KEY (`ponuda_id`)
+    REFERENCES `krojacnica`.`PONUDA` (`id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_STAVKA_NARUDŽBE_NARUDŽBA1`
+    FOREIGN KEY (`narudzba_broj_narudzbe`)
+    REFERENCES `krojacnica`.`NARUDZBA` (`broj_narudzbe`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_STAVKA_NARUDŽBE_MJERE1`
+    FOREIGN KEY (`mjere_klijent_osoba_id` , `mjere_datum`)
+    REFERENCES `krojacnica`.`MJERE` (`klijent_osoba_id` , `datum`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `krojacnica`.`RACUN`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `krojacnica`.`RACUN` (
+  `broj_racuna` INT NOT NULL AUTO_INCREMENT,
+  `datum_izdavanja` DATE NOT NULL,
+  `ukupan_iznos` DECIMAL(6,2) NOT NULL,
+  `NačinPlaćanja` VARCHAR(20) NOT NULL,
+  `narudzba_broj_narudzbe` INT NOT NULL,
+  `klijent_osoba_id` INT NOT NULL,
+  `zaposleni_osoba_id` INT NOT NULL,
+  PRIMARY KEY (`broj_racuna`),
+  INDEX `fk_RAČUN_NARUDŽBA1_idx` (`narudzba_broj_narudzbe` ASC) VISIBLE,
+  INDEX `fk_RAČUN_KLIJENT1_idx` (`klijent_osoba_id` ASC) VISIBLE,
+  INDEX `fk_RAČUN_ZAPOSLENI1_idx` (`zaposleni_osoba_id` ASC) VISIBLE,
+  CONSTRAINT `fk_RAČUN_NARUDŽBA1`
+    FOREIGN KEY (`narudzba_broj_narudzbe`)
+    REFERENCES `krojacnica`.`NARUDZBA` (`broj_narudzbe`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_RAČUN_KLIJENT1`
+    FOREIGN KEY (`klijent_osoba_id`)
+    REFERENCES `krojacnica`.`KLIJENT` (`osoba_id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_RAČUN_ZAPOSLENI1`
+    FOREIGN KEY (`zaposleni_osoba_id`)
+    REFERENCES `krojacnica`.`ZAPOSLENI` (`osoba_id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `krojacnica`.`PROBA`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `krojacnica`.`PROBA` (
+  `datum_probe` DATE NOT NULL,
+  `stavka_narudzbe_ponuda_id` INT NOT NULL,
+  `stavka_narudzbe_narudzba_broj_narudzbe` INT NOT NULL,
+  `komentar` TEXT NOT NULL,
+  PRIMARY KEY (`stavka_narudzbe_ponuda_id`, `stavka_narudzbe_narudzba_broj_narudzbe`, `datum_probe`),
+  INDEX `fk_PROBA_STAVKA_NARUDŽBE1_idx` (`stavka_narudzbe_ponuda_id` ASC, `stavka_narudzbe_narudzba_broj_narudzbe` ASC) VISIBLE,
+  CONSTRAINT `fk_PROBA_STAVKA_NARUDŽBE1`
+    FOREIGN KEY (`stavka_narudzbe_ponuda_id` , `stavka_narudzbe_narudzba_broj_narudzbe`)
+    REFERENCES `krojacnica`.`STAVKA_NARUDZBE` (`ponuda_id` , `narudzba_broj_narudzbe`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `krojacnica`.`MJESTO`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `krojacnica`.`MJESTO` (
+  `posta` INT NOT NULL,
+  `naziv` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`posta`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `krojacnica`.`DOBAVLJAC`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `krojacnica`.`DOBAVLJAC` (
+  `sifra` INT NOT NULL,
+  `adresa` VARCHAR(45) NOT NULL,
+  `telefon` VARCHAR(45) NOT NULL,
+  `mjesto_posta` INT NOT NULL,
+  PRIMARY KEY (`sifra`),
+  INDEX `fk_DOBAVLJAČ_MJESTO1_idx` (`mjesto_posta` ASC) VISIBLE,
+  CONSTRAINT `fk_DOBAVLJAČ_MJESTO1`
+    FOREIGN KEY (`mjesto_posta`)
+    REFERENCES `krojacnica`.`MJESTO` (`posta`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `krojacnica`.`OTKUP`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `krojacnica`.`OTKUP` (
+  `broj_potvrde` INT NOT NULL,
+  `datum` DATE NOT NULL,
+  `dobavljac_sifra` INT NOT NULL,
+  PRIMARY KEY (`broj_potvrde`),
+  INDEX `fk_OTKUP_DOBAVLJAČ1_idx` (`dobavljac_sifra` ASC) VISIBLE,
+  CONSTRAINT `fk_OTKUP_DOBAVLJAČ1`
+    FOREIGN KEY (`dobavljac_sifra`)
+    REFERENCES `krojacnica`.`DOBAVLJAC` (`sifra`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `krojacnica`.`MATERIJAL_DOBAVLJAC`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `krojacnica`.`MATERIJAL_DOBAVLJAC` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `materijal_id` INT NOT NULL,
+  `dobavljac_sifra` INT NOT NULL,
+  `cijena` DECIMAL(6,2) NOT NULL,
+  INDEX `fk_MATERIJAL_has_DOBAVLJAC_DOBAVLJAC1_idx` (`dobavljac_sifra` ASC) VISIBLE,
+  INDEX `fk_MATERIJAL_has_DOBAVLJAC_MATERIJAL1_idx` (`materijal_id` ASC) VISIBLE,
+  PRIMARY KEY (`id`),
+  CONSTRAINT `fk_MATERIJAL_has_DOBAVLJAC_MATERIJAL1`
+    FOREIGN KEY (`materijal_id`)
+    REFERENCES `krojacnica`.`MATERIJAL` (`id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_MATERIJAL_has_DOBAVLJAC_DOBAVLJAC1`
+    FOREIGN KEY (`dobavljac_sifra`)
+    REFERENCES `krojacnica`.`DOBAVLJAC` (`sifra`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `krojacnica`.`OTKUP_STAVKA`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `krojacnica`.`OTKUP_STAVKA` (
+  `kolicina` INT NOT NULL,
+  `otkup_broj_potvrde` INT NOT NULL,
+  `boja_hex_code` VARCHAR(7) NOT NULL,
+  `materijal_dobavljac_id` INT NOT NULL,
+  PRIMARY KEY (`boja_hex_code`, `materijal_dobavljac_id`, `otkup_broj_potvrde`),
+  INDEX `fk_OTKUP_STAVKA_OTKUP1_idx` (`otkup_broj_potvrde` ASC) VISIBLE,
+  INDEX `fk_OTKUP_STAVKA_BOJA1_idx` (`boja_hex_code` ASC) VISIBLE,
+  INDEX `fk_OTKUP_STAVKA_MATERIJAL_DOBAVLJAC1_idx` (`materijal_dobavljac_id` ASC) VISIBLE,
+  CONSTRAINT `fk_OTKUP_STAVKA_OTKUP1`
+    FOREIGN KEY (`otkup_broj_potvrde`)
+    REFERENCES `krojacnica`.`OTKUP` (`broj_potvrde`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_OTKUP_STAVKA_BOJA1`
+    FOREIGN KEY (`boja_hex_code`)
+    REFERENCES `krojacnica`.`BOJA` (`hex_code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_OTKUP_STAVKA_MATERIJAL_DOBAVLJAC1`
+    FOREIGN KEY (`materijal_dobavljac_id`)
+    REFERENCES `krojacnica`.`MATERIJAL_DOBAVLJAC` (`id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `krojacnica`.`INDIVIDUALNI`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `krojacnica`.`INDIVIDUALNI` (
+  `jmb` CHAR(13) NOT NULL,
+  `prezime` VARCHAR(20) NOT NULL,
+  `ime` VARCHAR(20) NOT NULL,
+  `dobavljac_sifra` INT NOT NULL,
+  PRIMARY KEY (`dobavljac_sifra`),
+  CONSTRAINT `fk_INDIVIDUALNI_DOBAVLJAČ1`
+    FOREIGN KEY (`dobavljac_sifra`)
+    REFERENCES `krojacnica`.`DOBAVLJAC` (`sifra`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `krojacnica`.`PREDUZECE`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `krojacnica`.`PREDUZECE` (
+  `jib` VARCHAR(45) NOT NULL,
+  `naziv` VARCHAR(45) NOT NULL,
+  `dobavljac_sifra` INT NOT NULL,
+  PRIMARY KEY (`dobavljac_sifra`),
+  CONSTRAINT `fk_PREDUZEĆE_DOBAVLJAČ1`
+    FOREIGN KEY (`dobavljac_sifra`)
+    REFERENCES `krojacnica`.`DOBAVLJAC` (`sifra`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `krojacnica`.`ISPLATA`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `krojacnica`.`ISPLATA` (
+  `broj_isplate` INT NOT NULL,
+  `datum` DATE NOT NULL,
+  `iznos` DECIMAL(8,2) NOT NULL,
+  `dobavljac_sifra` INT NOT NULL,
+  PRIMARY KEY (`broj_isplate`),
+  INDEX `fk_ISPLATA_DOBAVLJAČ1_idx` (`dobavljac_sifra` ASC) VISIBLE,
+  CONSTRAINT `fk_ISPLATA_DOBAVLJAČ1`
+    FOREIGN KEY (`dobavljac_sifra`)
+    REFERENCES `krojacnica`.`DOBAVLJAC` (`sifra`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `krojacnica`.`ADMIN`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `krojacnica`.`ADMIN` (
+  `zaposleni_osoba_id` INT NOT NULL,
+  PRIMARY KEY (`zaposleni_osoba_id`),
+  CONSTRAINT `fk_ADMIN_ZAPOSLENI1`
+    FOREIGN KEY (`zaposleni_osoba_id`)
+    REFERENCES `krojacnica`.`ZAPOSLENI` (`osoba_id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `krojacnica`.`OTKUP_ISPLATA`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `krojacnica`.`OTKUP_ISPLATA` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `otkup_broj_potvrde` INT NOT NULL,
+  `isplata_broj_isplate` INT NOT NULL,
+  INDEX `fk_OTKUP_has_ISPLATA_ISPLATA1_idx` (`isplata_broj_isplate` ASC) VISIBLE,
+  INDEX `fk_OTKUP_has_ISPLATA_OTKUP1_idx` (`otkup_broj_potvrde` ASC) VISIBLE,
+  PRIMARY KEY (`id`),
+  CONSTRAINT `fk_OTKUP_has_ISPLATA_OTKUP1`
+    FOREIGN KEY (`otkup_broj_potvrde`)
+    REFERENCES `krojacnica`.`OTKUP` (`broj_potvrde`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_OTKUP_has_ISPLATA_ISPLATA1`
+    FOREIGN KEY (`isplata_broj_isplate`)
+    REFERENCES `krojacnica`.`ISPLATA` (`broj_isplate`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `krojacnica`.`MATERIJAL_ZALIHA`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `krojacnica`.`MATERIJAL_ZALIHA` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `materijal_id` INT NOT NULL,
+  `boja_hex_code` VARCHAR(7) NOT NULL,
+  `dostupna_kolicina` INT NULL,
+  INDEX `fk_MATERIJAL_has_BOJA_BOJA1_idx` (`boja_hex_code` ASC) VISIBLE,
+  INDEX `fk_MATERIJAL_has_BOJA_MATERIJAL1_idx` (`materijal_id` ASC) VISIBLE,
+  PRIMARY KEY (`id`),
+  CONSTRAINT `fk_MATERIJAL_has_BOJA_MATERIJAL1`
+    FOREIGN KEY (`materijal_id`)
+    REFERENCES `krojacnica`.`MATERIJAL` (`id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_MATERIJAL_has_BOJA_BOJA1`
+    FOREIGN KEY (`boja_hex_code`)
+    REFERENCES `krojacnica`.`BOJA` (`hex_code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;

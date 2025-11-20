@@ -1,0 +1,183 @@
+USE krojacnica;
+
+-- ---------------------------
+-- OSOBA
+-- ---------------------------
+INSERT INTO OSOBA (prezime, ime, telefon, email) VALUES
+('Marković', 'Ana', '061123456', 'ana.markovic@example.com'),
+('Petrović', 'Milan', '062654321', 'milan.petrovic@example.com');
+
+-- ---------------------------
+-- KLIJENT
+-- ---------------------------
+INSERT INTO KLIJENT (osoba_id) VALUES
+(1),
+(2);
+
+-- ---------------------------
+-- ZAPOSLENI
+-- ---------------------------
+INSERT INTO ZAPOSLENI (osoba_id, korisnicko_ime, lozinka) VALUES
+(1, 'ana_admin', 'lozinka123'),
+(2, 'milan_radnik', 'lozinka456');
+
+-- ---------------------------
+-- MJERE
+-- ---------------------------
+INSERT INTO MJERE (sirina_ramena, obim_grudi, obim_struka, obim_kukova, obim_bokova, duzina, klijent_osoba_id, datum) VALUES
+(40, 90, 70, 95, 90, 170, 1, '2025-11-01'),
+(42, 95, 75, 100, 95, 172, 2, '2025-11-02');
+
+-- ---------------------------
+-- ZAPOSLENJE
+-- ---------------------------
+INSERT INTO ZAPOSLENJE (od_datuma, do_datuma, osoba_id) VALUES
+('2025-01-01', '2025-12-31', 1),
+('2025-02-01', '2025-12-31', 2);
+
+-- ---------------------------
+-- PONUDA
+-- ---------------------------
+INSERT INTO PONUDA (id, jedinicna_cijena) VALUES
+(1, 50.00),
+(2, 75.00);
+
+-- ---------------------------
+-- USLUGA
+-- ---------------------------
+INSERT INTO USLUGA (naziv, ponuda_id) VALUES
+('Šivanje haljine', 1),
+('Šivenje odijela', 2);
+
+-- ---------------------------
+-- MATERIJAL
+-- ---------------------------
+INSERT INTO MATERIJAL (id, naziv, kvalitet) VALUES
+(1, 'Pamuk', 'Visok'),
+(2, 'Lan', 'Srednji');
+
+-- ---------------------------
+-- BOJA
+-- ---------------------------
+INSERT INTO BOJA (hex_code, naziv) VALUES
+('#FF0000', 'Crvena'),
+('#0000FF', 'Plava');
+
+-- ---------------------------
+-- ARTIKAL
+-- ---------------------------
+INSERT INTO ARTIKAL (sifra_artikla, ponuda_id, materijal_id, boja_hex_code, slika, naziv) VALUES
+(1, 1, 1, '#FF0000', NULL, 'Haljina crvena'),
+(2, 2, 2, '#0000FF', NULL, 'Odijelo plavo');
+
+-- ---------------------------
+-- STATUS_NARUDZBE
+-- ---------------------------
+INSERT INTO STATUS_NARUDZBE (naziv) VALUES
+('U izradi'),
+('Završeno');
+
+-- ---------------------------
+-- NARUDZBA
+-- ---------------------------
+INSERT INTO NARUDZBA (datum, datum_otkazivanja, zaposleni_osoba_id, klijent_osoba_id, status_narudzbe_naziv) VALUES
+('2025-11-05', NULL, 1, 1, 'U izradi'),
+('2025-11-06', NULL, 2, 2, 'Završeno');
+
+-- ---------------------------
+-- STAVKA_NARUDZBE
+-- ---------------------------
+INSERT INTO STAVKA_NARUDZBE (redni_broj, kolicina, Cijena, ponuda_id, narudzba_broj_narudzbe, mjere_klijent_osoba_id, mjere_datum) VALUES
+(1, 1, 50.00, 1, 1, 1, '2025-11-01'),
+(1, 2, 150.00, 2, 2, 2, '2025-11-02');
+
+-- ---------------------------
+-- RACUN
+-- ---------------------------
+INSERT INTO RACUN (datum_izdavanja, ukupan_iznos, NačinPlaćanja, narudzba_broj_narudzbe, klijent_osoba_id, zaposleni_osoba_id) VALUES
+('2025-11-07', 50.00, 'Gotovina', 1, 1, 1),
+('2025-11-08', 150.00, 'Kartica', 2, 2, 2);
+
+-- ---------------------------
+-- PROBA
+-- ---------------------------
+INSERT INTO PROBA (datum_probe, stavka_narudzbe_ponuda_id, stavka_narudzbe_narudzba_broj_narudzbe, komentar) VALUES
+('2025-11-09', 1, 1, 'Sve ok'),
+('2025-11-10', 2, 2, 'Malo široko');
+
+-- ---------------------------
+-- MJESTO
+-- ---------------------------
+INSERT INTO MJESTO (posta, naziv) VALUES
+(71000, 'Sarajevo'),
+(75000, 'Tuzla');
+
+-- ---------------------------
+-- DOBAVLJAC
+-- ---------------------------
+INSERT INTO DOBAVLJAC (sifra, adresa, telefon, mjesto_posta) VALUES
+(1, 'Adresa 1', '061111111', 71000),
+(2, 'Adresa 2', '062222222', 75000);
+
+-- ---------------------------
+-- OTKUP
+-- ---------------------------
+INSERT INTO OTKUP (broj_potvrde, datum, dobavljac_sifra) VALUES
+(1, '2025-11-01', 1),
+(2, '2025-11-02', 2);
+
+-- ---------------------------
+-- MATERIJAL_DOBAVLJAC
+-- ---------------------------
+INSERT INTO MATERIJAL_DOBAVLJAC (materijal_id, dobavljac_sifra, cijena) VALUES
+(1, 1, 10.00),
+(2, 2, 20.00);
+
+-- ---------------------------
+-- OTKUP_STAVKA
+-- ---------------------------
+INSERT INTO OTKUP_STAVKA (kolicina, otkup_broj_potvrde, boja_hex_code, materijal_dobavljac_id) VALUES
+(10, 1, '#FF0000', 1),
+(15, 2, '#0000FF', 2);
+
+-- ---------------------------
+-- INDIVIDUALNI
+-- ---------------------------
+INSERT INTO INDIVIDUALNI (jmb, prezime, ime, dobavljac_sifra) VALUES
+('1234567890123', 'Kovač', 'Ivan', 1),
+('9876543210987', 'Horvat', 'Petar', 2);
+
+-- ---------------------------
+-- PREDUZECE
+-- ---------------------------
+INSERT INTO PREDUZECE (jib, naziv, dobavljac_sifra) VALUES
+('123456789', 'Firma 1', 1),
+('987654321', 'Firma 2', 2);
+
+-- ---------------------------
+-- ISPLATA
+-- ---------------------------
+INSERT INTO ISPLATA (broj_isplate, datum, iznos, dobavljac_sifra) VALUES
+(1, '2025-11-11', 100.00, 1),
+(2, '2025-11-12', 150.00, 2);
+
+-- ---------------------------
+-- ADMIN
+-- ---------------------------
+INSERT INTO ADMIN (zaposleni_osoba_id) VALUES
+(1),
+(2);
+
+-- ---------------------------
+-- OTKUP_ISPLATA
+-- ---------------------------
+INSERT INTO OTKUP_ISPLATA (otkup_broj_potvrde, isplata_broj_isplate) VALUES
+(1, 1),
+(2, 2);
+
+-- ---------------------------
+-- MATERIJAL_ZALIHA
+-- ---------------------------
+INSERT INTO MATERIJAL_ZALIHA (materijal_id, boja_hex_code, dostupna_kolicina) VALUES
+(1, '#FF0000', 50),
+(2, '#0000FF', 75);
