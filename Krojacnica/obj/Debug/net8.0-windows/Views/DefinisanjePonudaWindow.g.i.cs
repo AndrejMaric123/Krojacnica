@@ -169,7 +169,7 @@ namespace Krojacnica.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Krojacnica;component/views/definisanjeponudawindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Krojacnica;V1.0.0.0;component/views/definisanjeponudawindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\DefinisanjePonudaWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Krojacnica")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+325c156f3d713c73119c3e4cbcb2d03e701b6293")]
 [assembly: System.Reflection.AssemblyProductAttribute("Krojacnica")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Krojacnica")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
